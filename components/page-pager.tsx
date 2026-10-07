@@ -1,10 +1,11 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { sitePath } from '@/lib/site-path';
 
-export type SitePage = 'route' | 'map' | 'documents' | 'disclaimer';
+export type SitePage = 'landing' | 'route' | 'map' | 'documents' | 'disclaimer';
 
 const pages: Array<{ id: SitePage; href: string; label: string }> = [
-  { id: 'route', href: '/', label: 'Route' },
+  { id: 'landing', href: '/', label: 'Start here' },
+  { id: 'route', href: '/films', label: 'Films & scenes' },
   { id: 'map', href: '/map', label: 'Map' },
   { id: 'documents', href: '/documents', label: 'Documents' },
   { id: 'disclaimer', href: '/disclaimer', label: 'Disclaimer' },

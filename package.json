@@ -9,6 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build && node scripts/prepare-pages.mjs",
     "preview": "vite preview",
+    "preview:pages": "node scripts/preview-pages.mjs",
     "lint": "oxlint",
     "format": "oxfmt"
   },

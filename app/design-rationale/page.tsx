@@ -208,7 +208,7 @@ export default function Documents() {
               <p>The downloadable JSON Schema describes the information each location record contains: required fields, coordinate ranges, source URLs, and evidence statuses. It uses the <a href="https://json-schema.org/draft/2020-12" target="_blank" rel="noreferrer">2020-12 edition of the JSON Schema standard</a>. Camera orientation carries its own verification status, so a working direction remains clearly labelled.</p>
               <a className="schema-download" href={sitePath('/data/location-metadata.schema.json')} download>Download the location schema <ExternalLink aria-hidden="true" /></a>
             </div>
-            <a className="back-link" href={sitePath('/')}><ArrowLeft aria-hidden="true" /> Return to the films</a>
+            <a className="back-link" href={sitePath('/films/')}><ArrowLeft aria-hidden="true" /> Return to the films</a>
           </div>
         </section>
 

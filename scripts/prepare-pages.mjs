@@ -5,6 +5,7 @@ const output = join(process.cwd(), 'dist', 'client', 'ong_ong');
 const required = [
   'index.html',
   join('_next', 'static'),
+  join('films', 'index.html'),
   join('map', 'index.html'),
   join('documents', 'index.html'),
   join('disclaimer', 'index.html'),

@@ -17,7 +17,8 @@ export default function SiteHeader({ current, narrativeId }: SiteHeaderProps) {
         <span><strong>Hong Kong</strong><small>Through Film</small></span>
       </a>
       <nav className="site-nav" aria-label="Primary navigation">
-        <a aria-current={current === 'route' ? 'page' : undefined} href={sitePath(`/${narrativeQuery}`)}>Films &amp; scenes</a>
+        <a aria-current={current === 'landing' ? 'page' : undefined} href={sitePath('/')}>Start here</a>
+        <a aria-current={current === 'route' ? 'page' : undefined} href={sitePath(`/films/${narrativeQuery}`)}>Films &amp; scenes</a>
         <a aria-current={current === 'map' ? 'page' : undefined} href={sitePath(`/map/${narrativeQuery}`)}>Route map</a>
         <a aria-current={current === 'documents' ? 'page' : undefined} href={sitePath('/documents/')}>Documents</a>
         <a aria-current={current === 'disclaimer' ? 'page' : undefined} href={sitePath('/disclaimer/')}>Disclaimer</a>

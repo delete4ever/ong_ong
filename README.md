@@ -1,6 +1,6 @@
 # Hong Kong Through Film
 
-A two-route Hong Kong film-location website, published as a static site at `https://delete4ever.github.io/ong_ong/`.
+A Hong Kong film-location guide with a first-visit landing page, two self-guided routes, and two visual themes, published at `https://delete4ever.github.io/ong_ong/`. Films and scenes are at `/ong_ong/films/`; older root-level route links are redirected there in the browser.
 
 ## Local build
 

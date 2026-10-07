@@ -557,7 +557,7 @@ export default function RouteExperience({
       setQrDataUrl(null);
       return;
     }
-    const target = `${publicSiteUrl}/?narrative=${encodeURIComponent(activeNarrativeId)}&location=${encodeURIComponent(selected.location_id)}`;
+    const target = `${publicSiteUrl}/films/?narrative=${encodeURIComponent(activeNarrativeId)}&location=${encodeURIComponent(selected.location_id)}`;
     let cancelled = false;
     QRCode.toDataURL(target, { errorCorrectionLevel: 'M', margin: 2, width: 360, color: { dark: '#17130f', light: '#fffaf0' } })
       .then((dataUrl) => { if (!cancelled) setQrDataUrl(dataUrl); })
@@ -682,7 +682,7 @@ export default function RouteExperience({
         ) : (
           <section className="map-page-intro" aria-labelledby="page-title">
             <h1 id="page-title"><span className="theme-copy-print">Route map &amp; visit order</span><span className="theme-copy-cafe"><CafeSectionSign chinese="路線圖" english="Route map & visit order" /></span></h1>
-            <p>Choose the film journey, then inspect its numbered stops and optional transport layers. Film scenes and chapter stories live on the <a href={sitePath(`/?narrative=${encodeURIComponent(activeNarrativeId)}`)}>film route page</a>.</p>
+            <p>Choose the film journey, then inspect its numbered stops and optional transport layers. Film scenes and chapter stories live on the <a href={sitePath(`/films/?narrative=${encodeURIComponent(activeNarrativeId)}`)}>film route page</a>.</p>
             <div className="narrative-picker">
               <span>Choose a visit narrative</span>
               <ToggleGroup className="narrative-toggle" aria-label="Choose a visit narrative" value={[activeNarrativeId]} onValueChange={(values) => values[0] && selectNarrative(values[0])}>
@@ -849,7 +849,7 @@ export default function RouteExperience({
                     <QrCodeIcon aria-hidden="true" />
                     <h3>Open this location on site</h3>
                     <p>Scan to reopen this exact location and narrative on a phone.</p>
-                    <a href={`${publicSiteUrl}/?narrative=${encodeURIComponent(activeNarrativeId)}&location=${encodeURIComponent(selected.location_id)}`} target="_blank" rel="noreferrer">Open shareable location link <ArrowUpRight aria-hidden="true" /></a>
+                    <a href={`${publicSiteUrl}/films/?narrative=${encodeURIComponent(activeNarrativeId)}&location=${encodeURIComponent(selected.location_id)}`} target="_blank" rel="noreferrer">Open shareable location link <ArrowUpRight aria-hidden="true" /></a>
                   </div>
                   {qrDataUrl ? <img src={qrDataUrl} alt={`QR code linking to ${selected.location_name}`} /> : <span className="qr-loading">Generating QR…</span>}
                 </section>
