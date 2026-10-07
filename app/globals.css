@@ -980,7 +980,7 @@ h1 { margin-bottom: 1.6rem; font-family: var(--display-font); font-size: clamp(3
 :root[data-theme='printed_hong_kong_1910_1949'] .chapter-number { color: #835b2e; font-family: var(--menu-font); font-size: .85rem; }
 :root[data-theme='printed_hong_kong_1910_1949'] .chapter-card h3 { color: #1b3940; font-family: var(--display-font); font-size: clamp(1.7rem,2.2vw,2.35rem); }
 :root[data-theme='printed_hong_kong_1910_1949'] .chapter-transition { border-top: 1px solid #aab9ad; }
-:root[data-theme='printed_hong_kong_1910_1949'] .route-atlas { margin: 0 -4vw; padding: clamp(1.25rem,3vw,3rem) 4vw; background: linear-gradient(180deg,#1b373c,#28464a); color: #f5ebd6; }
+:root[data-theme='printed_hong_kong_1910_1949'] .route-atlas { margin: 0; padding: clamp(1.25rem,3vw,3rem) 4vw; background: linear-gradient(180deg,#1b373c,#28464a); color: #f5ebd6; }
 :root[data-theme='printed_hong_kong_1910_1949'] .clockwork-map-heading { display: flex; justify-content: space-between; align-items: end; gap: 1rem; margin-bottom: 1.3rem; }
 :root[data-theme='printed_hong_kong_1910_1949'] .clockwork-map-heading small { color: #d6b57a; font-family: var(--menu-font); font-size: .85rem; letter-spacing: .14em; }
 :root[data-theme='printed_hong_kong_1910_1949'] .clockwork-map-heading h2 { margin: .3rem 0; color: #f8edd8; font-family: var(--display-font); font-size: clamp(2.8rem,5vw,5.5rem); line-height: .9; }
