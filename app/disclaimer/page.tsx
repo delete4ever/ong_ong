@@ -67,7 +67,7 @@ export default function DisclaimerPage() {
           </div>
         </section>
 
-        <aside className="course-credit"><GraduationCap aria-hidden="true" /><p><strong>Coursework statement</strong><br />Information Modeling and Web Technologies · University of Bologna · A.Y. 2025–26 · Prof. Fabio Vitali · Solo project by Lulu Yang.</p></aside>
+        <aside className="course-credit"><GraduationCap aria-hidden="true" /><p><strong>Coursework statement</strong><br />Information Modeling and Web Technologies · University of Bologna · A.Y. 2025–26 · Prof. Fabio Vitali · Solo project by Ludi Yang.</p></aside>
         <PagePager current="disclaimer" />
       </main>
       <footer className="site-footer"><span>Hong Kong Through Film</span><span>Disclaimer · 2026</span></footer>
