@@ -1,0 +1,359 @@
+{
+  "schema_version": "3.0.0",
+  "project": {
+    "project_id": "hong-kong-through-film-narrative-v3",
+    "title": "Hong Kong Through Film",
+    "content_language": "en",
+    "location_pool_count": 19,
+    "narrative_count": 2,
+    "default_narrative_id": "historical-timeline",
+    "last_verified": "2026-09-11",
+    "model_note": "One shared location pool supports multiple visit narratives. Each narrative owns its sequence, chapters, transitions, location framing, and transport logic."
+  },
+  "content_model": {
+    "required_texts_per_location": 4,
+    "composition_rule": "Each included location receives two narrative-specific texts in two reading modes, producing four deliberately tagged texts rather than a full Cartesian grid.",
+    "axes": {
+      "narrative": ["historical-timeline", "cinematic-food-trail"],
+      "detail_level": ["brief", "extended"],
+      "competence": ["introductory", "advanced"],
+      "tone": ["general_visitor", "research_reader"]
+    },
+    "display_variants": [
+      {
+        "variant_id": "visitor-brief",
+        "label": "Quick view",
+        "detail_level": "brief",
+        "competence": "introductory",
+        "tone": "general_visitor",
+        "target_length": "2–3 lines"
+      },
+      {
+        "variant_id": "research-extended",
+        "label": "Research view",
+        "detail_level": "extended",
+        "competence": "advanced",
+        "tone": "research_reader",
+        "target_length": "10–15 lines plus references"
+      }
+    ]
+  },
+  "location_additions": [
+    {
+      "location_id": "v3-19-mido-cafe",
+      "route_order": 19,
+      "location_name": "Mido Cafe",
+      "district": "Yau Ma Tei",
+      "address": "63 Temple Street at Public Square Street, Yau Ma Tei",
+      "coordinates": {
+        "latitude": 22.31023,
+        "longitude": 114.17037,
+        "status": "working_verified",
+        "verification": {
+          "provider": "OpenStreetMap-linked place data and Hong Kong Tourism Board",
+          "match": "Exact Mido Cafe address and landmark match",
+          "checked_date": "2026-09-09"
+        }
+      },
+      "location_type": ["cha_chaan_teng", "historic_cafe", "film_exterior"],
+      "film": {
+        "film_id": "film-world-suzie-wong-1960",
+        "title": "The World of Suzie Wong",
+        "release_year": 1960,
+        "directors": ["Richard Quine"]
+      },
+      "scene": {
+        "summary": "The curved Mido Cafe building appears in the background of a busy street sequence filmed outside Tin Hau Temple, where Yau Ma Tei stands in for another part of cinematic Hong Kong.",
+        "shot_anchor": "The curved corner façade at Temple Street and Public Square Street; the food narrative must distinguish the filmed exterior from today's dining interior.",
+        "camera_direction": "From the Tin Hau Temple and Public Square Street side, face the curved Mido Cafe corner at Temple Street and keep the café façade as the scene anchor.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The 1950 cha chaan teng is operating again after a temporary closure in 2022 and retains much of its historic visual identity.",
+      "access": {
+        "level": "business_permission",
+        "notes": "Visit as a customer. Ask before photographing the interior, staff, or other diners."
+      },
+      "route_fit": "shared_narrative_pool",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "The 1960 film clearly uses the surrounding Temple Street view, but the café interior should not be described as the filmed interior without frame evidence.",
+        "next_action": "Match the exterior frame, record camera direction, and confirm the café's current photography policy."
+      },
+      "sources": [
+        {
+          "role": "place_and_film_reference",
+          "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-mido-cafe.html"
+        },
+        {
+          "role": "shot_reference",
+          "url": "https://hkmacaufilmtvlocations.blogspot.com/2011/05/the-world-of-suzie-wong-william-holden.html"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    }
+  ],
+  "narratives": [
+    {
+      "narrative_id": "historical-timeline",
+      "short_title": "Cinema Through Time",
+      "title": "Hong Kong on Screen Through Time",
+      "narrative_type": "historical_timeline",
+      "requirement_status": "student_selected_narrative",
+      "route_title": "Fifteen scenes, one city on screen",
+      "description": "Start with the films, then step into their frames. From The World of Suzie Wong and As Tears Go By to Chungking Express and Cold War, this route pairs recognisable scenes with fifteen places you can seek out today. The walking order follows the city rather than film release dates.",
+      "selection_rationale": "Three chapters introduce the films and their scene images first. Each scene then reveals its filming place, shot guidance, and present-day access; the separate map is for planning the walk, not for deciding what the story is about.",
+      "start_label": "Hung Wan Cafe · Prince Edward",
+      "end_label": "Former Midnight Express Site · Central",
+      "estimated_duration": "8.5–10 hours",
+      "estimated_walking": "Approximately 8–9 km plus one Star Ferry crossing",
+      "route_character": "geographically_continuous_film_history_route",
+      "chapters": [
+        {
+          "chapter_id": "history-01-north-kowloon",
+          "order": 1,
+          "title": "Cafés, markets and street power on film",
+          "period": "Prince Edward to Yau Ma Tei",
+          "introduction": "Begin with The Lucky Guy's café workplace, Push's crowded Mong Kok junction, and the nocturnal fruit-market world of As Tears Go By. Two frames from one World of Suzie Wong street sequence connect Mido Cafe in the background with the wall of Tin Hau Temple. C'est la vie, mon chéri and Election then move from Temple Street performance to a contest for power outside a police station. Open each scene to compare its image with the place you can visit.",
+          "transition_out": "Breaking News carries the next chapter into Jordan: its housing-estate siege turns an ordinary residential setting into a televised event."
+        },
+        {
+          "chapter_id": "history-02-harbour-approach",
+          "order": 2,
+          "title": "Pursuit, spectacle and a harbour crossing",
+          "period": "Jordan to Tsim Sha Tsui",
+          "introduction": "Breaking News stages its siege at Man Wah Sun Chuen; Chungking Express turns Chungking Mansions into a maze of pursuit. Daddy Cool plays the earlier Avenue of Stars as public spectacle, while Comrades, Almost a Love Story finds a quieter roadside encounter near Middle Road. These four films shift the camera from private urgency to the open harbour.",
+          "transition_out": "Cross once by Star Ferry. On the Central side, Cold War begins the final chapter at Pier 7, making the transport interchange part of its pursuit."
+        },
+        {
+          "chapter_id": "history-03-central-after-crossing",
+          "order": 3,
+          "title": "Central: action, performance and absence",
+          "period": "Star Ferry to Central",
+          "introduction": "Cold War gives the pier a thriller's momentum. A Better Tomorrow places a vulnerable street-food moment against Jackson Road's monumental setting; King of Comedy reframes Duddell Street's steps as an entrance. The last frame belongs to Chungking Express: its Midnight Express counter has gone, but the film's emotional geography remains legible nearby.",
+          "transition_out": "At the former Midnight Express site, compare the credited frame with what survives today. The absent counter is part of the story, not a promise of a preserved set."
+        }
+      ],
+      "route_sequence": [
+        {
+          "order": 1,
+          "location_id": "v2-18-hung-wan-cafe",
+          "chapter_id": "history-01-north-kowloon",
+          "connection_type": "geographic_start",
+          "narrative_hook": "In The Lucky Guy, the café's staff and regulars give Stephen Chow's ensemble comedy its social rhythm."
+        },
+        {
+          "order": 2,
+          "location_id": "v2-17-reclamation-soy",
+          "chapter_id": "history-01-north-kowloon",
+          "connection_type": "southbound_walk",
+          "narrative_hook": "Push compresses its psychic pursuit into a crowded streetscape; signs, traffic and passers-by turn the chase into visual overload."
+        },
+        {
+          "order": 3,
+          "location_id": "v2-16-fruit-market",
+          "chapter_id": "history-01-north-kowloon",
+          "connection_type": "southbound_walk",
+          "narrative_hook": "As Tears Go By sets its triad romance against night labour, letting ordinary work interrupt gangster glamour."
+        },
+        {
+          "order": 4,
+          "location_id": "v3-19-mido-cafe",
+          "chapter_id": "history-01-north-kowloon",
+          "connection_type": "neighbourhood_walk",
+          "narrative_hook": "Look past the market crowd: Mido Cafe's curved upper façade appears in the background of this Yau Ma Tei street frame."
+        },
+        {
+          "order": 5,
+          "location_id": "v2-15-tin-hau-temple",
+          "chapter_id": "history-01-north-kowloon",
+          "connection_type": "same_film_spatial_counterpoint",
+          "narrative_hook": "Another frame from the same sequence moves beside Tin Hau Temple's long wall and green shutters."
+        },
+        {
+          "order": 6,
+          "location_id": "v2-14-former-carpark-temple-street",
+          "chapter_id": "history-01-north-kowloon",
+          "connection_type": "neighbourhood_walk",
+          "narrative_hook": "C'est la vie, mon chéri threads Min and Kit's relationship through night-market performance and everyday neighbourhood life."
+        },
+        {
+          "order": 7,
+          "location_id": "v2-13-old-ymt-police",
+          "chapter_id": "history-01-north-kowloon",
+          "connection_type": "westward_walk",
+          "narrative_hook": "Election brings its struggle for triad power to a police-station exit, setting informal authority beside an official institution."
+        },
+        {
+          "order": 8,
+          "location_id": "v2-12-man-wah-sun-chuen",
+          "chapter_id": "history-02-harbour-approach",
+          "connection_type": "southbound_walk",
+          "narrative_hook": "Breaking News turns a housing-estate siege into a contest between gunmen, police and cameras; the image of the raid becomes a weapon."
+        },
+        {
+          "order": 9,
+          "location_id": "v2-10-chungking-mansions",
+          "chapter_id": "history-02-harbour-approach",
+          "connection_type": "southbound_corridor",
+          "narrative_hook": "Chungking Express sends its characters through Chungking Mansions as a maze of chance encounters and elusive identities."
+        },
+        {
+          "order": 10,
+          "location_id": "v2-08-avenue-of-stars",
+          "chapter_id": "history-02-harbour-approach",
+          "connection_type": "harbourfront_walk",
+          "narrative_hook": "Daddy Cool's Hong Kong song sequence uses the harbour panorama as a public performance stage."
+        },
+        {
+          "order": 11,
+          "location_id": "v2-09-middle-road-ymca",
+          "chapter_id": "history-02-harbour-approach",
+          "connection_type": "westbound_harbour_walk",
+          "narrative_hook": "Comrades, Almost a Love Story finds emotional force in an ordinary roadside encounter; its characters are always between destinations."
+        },
+        {
+          "order": 12,
+          "location_id": "v2-07-central-pier-7",
+          "chapter_id": "history-03-central-after-crossing",
+          "connection_type": "single_harbour_crossing",
+          "narrative_hook": "Cold War keeps its police thriller in motion through routine transport space, making a commuter interchange part of the pursuit."
+        },
+        {
+          "order": 13,
+          "location_id": "v2-01-jackson-road",
+          "chapter_id": "history-03-central-after-crossing",
+          "connection_type": "central_walk",
+          "narrative_hook": "A Better Tomorrow pauses on Mark eating rice rolls; the small gesture gives John Woo's action icon an unexpectedly human scale."
+        },
+        {
+          "order": 14,
+          "location_id": "v2-02-duddell-street",
+          "chapter_id": "history-03-central-after-crossing",
+          "connection_type": "central_walk",
+          "narrative_hook": "King of Comedy introduces Lau Piu-piu at the steps like a star making an entrance, while the story keeps his precarious acting career in view."
+        },
+        {
+          "order": 15,
+          "location_id": "v2-03-midnight-express",
+          "chapter_id": "history-03-central-after-crossing",
+          "connection_type": "central_walk",
+          "narrative_hook": "Chungking Express makes a takeaway counter a place of repetition, flirtation and loneliness; the stall itself has since disappeared."
+        }
+      ]
+    },
+    {
+      "narrative_id": "cinematic-food-trail",
+      "short_title": "Cinema on the Table",
+      "title": "Cinema on the Table: A Hong Kong Food Trail",
+      "narrative_type": "topic_based_food_history",
+      "requirement_status": "topic_specific_narrative",
+      "route_title": "What Hong Kong films put on the table",
+      "description": "Follow food through the movies before following it through the streets: rice rolls in A Better Tomorrow, the takeaway counter of Chungking Express, a broadcast meal in Breaking News, and the café world of The Lucky Guy. Ten scene-led visits connect screen food with the city that makes and serves it.",
+      "selection_rationale": "The scene images distinguish food shown in a film from food culture encountered at a location today. The chapter cards identify the film and the exact narrative link; a separate map handles walking order and transport.",
+      "start_label": "Central Station · street food",
+      "end_label": "Hung Wan Cafe · Prince Edward",
+      "estimated_duration": "7–8 hours including meal breaks",
+      "estimated_walking": "Approximately 6–7 km plus one Star Ferry crossing",
+      "route_character": "geographically_optimised_food_trail",
+      "chapters": [
+        {
+          "chapter_id": "food-01-food-in-motion",
+          "order": 1,
+          "title": "Central: a meal, a counter, a market",
+          "period": "Central",
+          "introduction": "A Better Tomorrow opens with Mark's rice rolls against the formal streets of Central. Chungking Express returns twice: to the former Midnight Express takeaway counter and to Graham Street's market world. Infernal Affairs III uses an apple on Pottinger Street as a small prop in a moving city. Not every stop depicts a meal; the cards identify when the film shows food and when the location supplies its wider context.",
+          "transition_out": "Cross Victoria Harbour once by Star Ferry. Chungking Express reappears in Tsim Sha Tsui, where its screen setting leads into a different, present-day food geography."
+        },
+        {
+          "chapter_id": "food-02-tables-under-pressure",
+          "order": 2,
+          "title": "Kowloon: food across strangers and screens",
+          "period": "Tsim Sha Tsui to Jordan",
+          "introduction": "Chungking Express sends its characters through Chungking Mansions; the building's current transnational food economy is a present-day context, not a food scene claimed for the film. In Breaking News, fugitives cook for hostages and broadcast the meal from Man Wah Sun Chuen, turning hospitality into a media tactic.",
+          "transition_out": "Head north to the night market and historic cafés. The last chapter moves from staged meals to the working places and habits that sustain them."
+        },
+        {
+          "chapter_id": "food-03-edible-memory",
+          "order": 3,
+          "title": "Yau Ma Tei: filmed streets, working cafés",
+          "period": "Yau Ma Tei to Prince Edward",
+          "introduction": "C'est la vie, mon chéri connects Temple Street's filmed setting to its street-food culture. The World of Suzie Wong frames Mido Cafe from outside; today's dining room is an experience of a surviving café, not a verified film interior. As Tears Go By shows the fruit market's night labour, and The Lucky Guy makes Hung Wan Café itself a workplace and social stage.",
+          "transition_out": "Finish at Hung Wan Café with the film frame in mind: notice which atmosphere, service rituals, and details remain, and which belong only to the movie."
+        }
+      ],
+      "route_sequence": [
+        {
+          "order": 1,
+          "location_id": "v2-01-jackson-road",
+          "chapter_id": "food-01-food-in-motion",
+          "connection_type": "explicit_food_scene",
+          "narrative_hook": "Mark's rice-roll moment interrupts A Better Tomorrow's stylised violence with the ordinary pleasure of a street meal."
+        },
+        {
+          "order": 2,
+          "location_id": "v2-03-midnight-express",
+          "chapter_id": "food-01-food-in-motion",
+          "connection_type": "explicit_food_scene",
+          "narrative_hook": "In Chungking Express, repeated visits to a takeaway counter let food service become a language of flirtation and emotional routine."
+        },
+        {
+          "order": 3,
+          "location_id": "v2-05-graham-market",
+          "chapter_id": "food-01-food-in-motion",
+          "connection_type": "food_system",
+          "narrative_hook": "Faye's market errand extends Chungking Express beyond its takeaway counter. The produce trade is the scene's setting, not a meal shown on screen."
+        },
+        {
+          "order": 4,
+          "location_id": "v2-04-pottinger-street",
+          "chapter_id": "food-01-food-in-motion",
+          "connection_type": "food_as_prop",
+          "narrative_hook": "Infernal Affairs III puts an apple into a character's movement, turning an everyday bite into a prop for its fractured, restless thriller."
+        },
+        {
+          "order": 5,
+          "location_id": "v2-10-chungking-mansions",
+          "chapter_id": "food-02-tables-under-pressure",
+          "connection_type": "culinary_context",
+          "narrative_hook": "Chungking Express uses the building as a pursuit maze, not a food scene. Its present-day transnational food economy is a separate layer to notice on the visit."
+        },
+        {
+          "order": 6,
+          "location_id": "v2-12-man-wah-sun-chuen",
+          "chapter_id": "food-02-tables-under-pressure",
+          "connection_type": "explicit_food_scene",
+          "narrative_hook": "In Breaking News, fugitives cook for their hostages and broadcast the meal, turning domestic hospitality into a media strategy."
+        },
+        {
+          "order": 7,
+          "location_id": "v2-14-former-carpark-temple-street",
+          "chapter_id": "food-03-edible-memory",
+          "connection_type": "street_food_context",
+          "narrative_hook": "C'est la vie, mon chéri brings neighbourhood performance into its love story. Street food belongs to the present-day visit, not a meal claimed for this scene."
+        },
+        {
+          "order": 8,
+          "location_id": "v3-19-mido-cafe",
+          "chapter_id": "food-03-edible-memory",
+          "connection_type": "film_cafe_context",
+          "narrative_hook": "Mido Cafe's exterior appears behind the market crowd in The World of Suzie Wong; today's dining room is a separate experience, not a verified film interior."
+        },
+        {
+          "order": 9,
+          "location_id": "v2-16-fruit-market",
+          "chapter_id": "food-03-edible-memory",
+          "connection_type": "food_system",
+          "narrative_hook": "As Tears Go By finds atmosphere in the fruit market's night labour, showing food distribution rather than a staged dining scene."
+        },
+        {
+          "order": 10,
+          "location_id": "v2-18-hung-wan-cafe",
+          "chapter_id": "food-03-edible-memory",
+          "connection_type": "explicit_food_scene",
+          "narrative_hook": "The Lucky Guy makes its café a workplace and social stage; its food and service routines hold the comedy's ensemble together."
+        }
+      ]
+    }
+  ]
+}

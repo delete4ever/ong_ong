@@ -1,0 +1,769 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "project_id": "hong-kong-film-locations",
+    "title": "Hong Kong Through Film",
+    "content_language": "en",
+    "locale": "en-HK",
+    "city": "Hong Kong",
+    "narrative": "A one-day journey through Hong Kong's cinematic memory, moving from Shek Tong Tsui through Sheung Wan and Central, crossing Victoria Harbour, and ending in Yau Ma Tei.",
+    "location_count": 15,
+    "verification_stage": "first_round",
+    "last_verified": "2026-09-09",
+    "coordinate_policy": "All coordinates are working map pins. Confirm the final location pin and camera position against film frames and timecodes before publication."
+  },
+  "visual_styles": [
+    {
+      "visual_style_id": "classic_cinema_1960_1989",
+      "label": "Classic Hong Kong Cinema",
+      "period": "1960–1989",
+      "design_direction": "Warm film tones, restrained typography, archival textures, and slower transitions."
+    },
+    {
+      "visual_style_id": "neon_transition_1990_2004",
+      "label": "Neon and Transition",
+      "period": "1990–2004",
+      "design_direction": "Dense urban framing, saturated night color, layered signage, and energetic motion."
+    },
+    {
+      "visual_style_id": "contemporary_hong_kong_2005_2012",
+      "label": "Contemporary Hong Kong",
+      "period": "2005–2012",
+      "design_direction": "Cooler color, cleaner grids, institutional architecture, and precise interface motion."
+    }
+  ],
+  "verification_legend": {
+    "verification_result": {
+      "initial_pass": "The film-location relationship is credible and the site is feasible for the route. Film frames, timecodes, and final map pins are still required before publication.",
+      "conditional_pass": "The location is credible, but access, physical change, or the exact shot position requires a visible qualification.",
+      "replace": "The evidence or route feasibility is insufficient. Replace the entry before final publication."
+    },
+    "evidence_status": {
+      "cross_verified": "At least two independent sources support the location or a key part of its current status.",
+      "single_source": "One source currently provides the explicit film-location link.",
+      "shot_verification_required": "The place is named in research, but the exact shot anchor is not yet stable."
+    }
+  },
+  "locations": [
+    {
+      "location_id": "loc-01-hill-road",
+      "route_order": 1,
+      "location_name": "Hill Road / Hill Road Flyover",
+      "district": "Shek Tong Tsui",
+      "address": "Hill Road Flyover, Hill Road, Shek Tong Tsui",
+      "coordinates": {
+        "latitude": 22.284695,
+        "longitude": 114.135722,
+        "status": "working"
+      },
+      "location_type": ["street", "flyover"],
+      "film": {
+        "film_id": "film-rouge-1987",
+        "title": "Rouge",
+        "release_year": 1987,
+        "directors": ["Stanley Kwan"]
+      },
+      "visual_style_id": "classic_cinema_1960_1989",
+      "scene": {
+        "summary": "Fleur searches Shek Tong Tsui for the Twelfth Master. The flyover and the street beneath it act as a threshold between the city's past and present.",
+        "shot_anchor": "The space beneath Hill Road Flyover and the change in slope. The exact bridge pier must be matched to a film frame.",
+        "camera_direction": null
+      },
+      "current_state": "The flyover and road remain, while surrounding shops and façades have changed.",
+      "access": {
+        "level": "public_space",
+        "notes": "Use ordinary public-street access and avoid obstructing pedestrians."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "shot_verification_required",
+        "result": "conditional_pass",
+        "risk_or_gap": "Published research supports the film-location link, but a reproducible shot anchor has not yet been found.",
+        "next_action": "Capture the relevant film frame and match the bridge pier, slope, and camera position in street imagery."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://www.cathaypacific.com/cx/en_HK/inspiration/hong-kong/iconic-hong-kong-movie-locations.html"
+        },
+        {
+          "role": "secondary",
+          "url": "https://www.atlasobscura.com/places/hill-road-flyover"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-02-wing-lee",
+      "route_order": 2,
+      "location_name": "Wing Lee Street",
+      "district": "Sheung Wan",
+      "address": "Wing Lee Street, Sheung Wan",
+      "coordinates": {
+        "latitude": 22.283325,
+        "longitude": 114.150077,
+        "status": "working"
+      },
+      "location_type": ["historic_street", "tenement_buildings"],
+      "film": {
+        "film_id": "film-echoes-rainbow-2010",
+        "title": "Echoes of the Rainbow",
+        "release_year": 2010,
+        "directors": ["Alex Law"]
+      },
+      "visual_style_id": "contemporary_hong_kong_2005_2012",
+      "scene": {
+        "summary": "The surviving tenement row represents the family's home, shoe shop, and neighborhood life in 1960s Hong Kong.",
+        "shot_anchor": "The preserved section of Wing Lee Street and its continuous tenement façades.",
+        "camera_direction": null
+      },
+      "current_state": "The street has been preserved and restored. It remains a residential environment.",
+      "access": {
+        "level": "public_space",
+        "notes": "Photograph discreetly, respect residents, and avoid filming through windows or doorways."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "initial_pass",
+        "risk_or_gap": "The site is clear, but residential privacy and restoration work may affect visual matching.",
+        "next_action": "Add a film frame, identify the relevant doorway, and record the camera direction without filming residents."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://walkin.hk/experience/hong-kong-movie-tour-sheung-wan/"
+        },
+        {
+          "role": "secondary",
+          "url": "https://www.atlasobscura.com/places/wing-lee-street"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-03-ymca-bridges",
+      "route_order": 3,
+      "location_name": "Chinese YMCA of Hong Kong, Bridges Street Centre",
+      "district": "Sheung Wan",
+      "address": "51 Bridges Street, Sheung Wan",
+      "coordinates": {
+        "latitude": 22.28399,
+        "longitude": 114.1495,
+        "status": "working"
+      },
+      "location_type": ["historic_building", "community_centre"],
+      "film": {
+        "film_id": "film-fighters-blues-2000",
+        "title": "A Fighter's Blues",
+        "release_year": 2000,
+        "directors": ["Daniel Lee"]
+      },
+      "visual_style_id": "neon_transition_1990_2004",
+      "scene": {
+        "summary": "The centre and the surrounding stair streets form the historic urban background for an action sequence.",
+        "shot_anchor": "The Bridges Street Centre façade, entrance, and the street immediately in front of it.",
+        "camera_direction": null
+      },
+      "current_state": "The building remains in active institutional use. Interior access depends on the centre's arrangements.",
+      "access": {
+        "level": "exterior_only",
+        "notes": "Treat the exterior as the default website location. Do not imply that visitors may enter freely."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The explicit film connection currently relies mainly on one specialist walking-tour source.",
+        "next_action": "Add a second source and a film timecode. Keep the website experience focused on the exterior."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://walkin.hk/experience/hong-kong-movie-tour-sheung-wan/"
+        },
+        {
+          "role": "secondary",
+          "url": "https://ymca.org.hk/en/contact-us/"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-04-man-mo-steps",
+      "route_order": 4,
+      "location_name": "Steps Beside Man Mo Temple",
+      "district": "Sheung Wan",
+      "address": "Beside 124–126 Hollywood Road, Sheung Wan",
+      "coordinates": {
+        "latitude": 22.284,
+        "longitude": 114.1502,
+        "status": "working"
+      },
+      "location_type": ["temple_edge", "stair_street"],
+      "film": {
+        "film_id": "film-suzie-wong-1960",
+        "title": "The World of Suzie Wong",
+        "release_year": 1960,
+        "directors": ["Richard Quine"]
+      },
+      "visual_style_id": "classic_cinema_1960_1989",
+      "scene": {
+        "summary": "The steps beside Man Mo Temple contribute an old-Hong-Kong streetscape that connects hillside walking with neighborhood life.",
+        "shot_anchor": "The side steps and the Hollywood Road entrance beside Man Mo Temple.",
+        "camera_direction": null
+      },
+      "current_state": "The temple is a declared monument. The surrounding public lanes remain accessible and can be busy with visitors.",
+      "access": {
+        "level": "public_space",
+        "notes": "Follow temple rules and avoid blocking worshippers or visitors."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The location is credible, but the specific side of the temple used in the film still needs confirmation.",
+        "next_action": "Match railings, signs, and the uphill or downhill orientation against a film frame."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://walkin.hk/experience/hong-kong-movie-tour-sheung-wan/"
+        },
+        {
+          "role": "secondary",
+          "url": "https://dao.jic.io/en/sites/hk-man-mo-temple"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-05-tank-lane",
+      "route_order": 5,
+      "location_name": "Tank Lane",
+      "district": "Sheung Wan",
+      "address": "Tank Lane, Sheung Wan",
+      "coordinates": {
+        "latitude": 22.2847,
+        "longitude": 114.14875,
+        "status": "working"
+      },
+      "location_type": ["stair_street", "back_lane"],
+      "film": {
+        "film_id": "film-rouge-1987",
+        "title": "Rouge",
+        "release_year": 1987,
+        "directors": ["Stanley Kwan"]
+      },
+      "visual_style_id": "classic_cinema_1960_1989",
+      "scene": {
+        "summary": "The narrow stair street supports Fleur's search for traces of an older Hong Kong.",
+        "shot_anchor": "The middle section of the steps. The exact doorway and turn have not yet been confirmed.",
+        "camera_direction": null
+      },
+      "current_state": "The public steps remain, but shops, walls, and surface details have changed substantially.",
+      "access": {
+        "level": "public_space",
+        "notes": "Keep equipment compact and leave the stairway clear."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "shot_verification_required",
+        "result": "conditional_pass",
+        "risk_or_gap": "Research names the lane, but no stable street number or reproducible camera position has been established.",
+        "next_action": "Confirm the film timecode before the site visit. Replace this entry if the frame cannot be matched."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://walkin.hk/experience/hong-kong-movie-tour-sheung-wan/"
+        },
+        {
+          "role": "secondary",
+          "url": "https://tasha.im/2016-11-22-6/"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-06-kau-u-fong",
+      "route_order": 6,
+      "location_name": "Kau U Fong",
+      "district": "Central / Sheung Wan",
+      "address": "Kau U Fong, Central",
+      "coordinates": {
+        "latitude": 22.284364,
+        "longitude": 114.153175,
+        "status": "working"
+      },
+      "location_type": ["sloping_street", "stair_street"],
+      "film": {
+        "film_id": "film-in-the-mood-2000",
+        "title": "In the Mood for Love",
+        "release_year": 2000,
+        "directors": ["Wong Kar-wai"]
+      },
+      "visual_style_id": "neon_transition_1990_2004",
+      "scene": {
+        "summary": "The slope, walls, and night atmosphere support the restrained and indirect movement of Chow Mo-wan and Su Li-zhen through the city.",
+        "shot_anchor": "Kau U Fong and its connecting steps. The precise wall surface must be identified from the film.",
+        "camera_direction": null
+      },
+      "current_state": "The street remains, while façades and the commercial environment have changed.",
+      "access": {
+        "level": "public_space",
+        "notes": "The lane is narrow. Keep circulation clear and avoid staging that affects residents or businesses."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "The street-level link is plausible, but several exterior scenes in the film were also created in Macau or on sets.",
+        "next_action": "Describe it only as an exterior location node and complete a frame-by-frame architectural comparison."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://walkin.hk/experience/hong-kong-movie-tour-sheung-wan/"
+        },
+        {
+          "role": "secondary",
+          "url": "https://metatake.net/director/wong-kar-wai/locations"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-07-guangdong-tower",
+      "route_order": 7,
+      "location_name": "Guangdong Investment Tower",
+      "district": "Sheung Wan",
+      "address": "148 Connaught Road Central, Sheung Wan",
+      "coordinates": {
+        "latitude": 22.287241,
+        "longitude": 114.151121,
+        "status": "working"
+      },
+      "location_type": ["office_building", "street"],
+      "film": {
+        "film_id": "film-infernal-affairs-2002",
+        "title": "Infernal Affairs",
+        "release_year": 2002,
+        "directors": ["Andrew Lau", "Alan Mak"]
+      },
+      "visual_style_id": "neon_transition_1990_2004",
+      "scene": {
+        "summary": "A character falls from a different rooftop but lands in front of Guangdong Investment Tower through an editorial spatial match.",
+        "shot_anchor": "The entrance driveway and street-level landing point. This is not the rooftop shown in the fall.",
+        "camera_direction": null
+      },
+      "current_state": "The office tower remains. The exterior is visible from public space, while the lobby is privately managed.",
+      "access": {
+        "level": "limited_access",
+        "notes": "Use only public-road viewpoints unless the building grants permission."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "The rooftop and landing point are easily misrepresented as one building. Interior filming requires permission.",
+        "next_action": "State clearly that the rooftop and landing point are different locations. Capture only the public exterior by default."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://www.cathaypacific.com/cx/en_US/inspiration/hong-kong/infernal-affairs-filmed-hong-kong.html"
+        },
+        {
+          "role": "secondary",
+          "url": "https://oir.centanet.com/en/property/office/guangdong-investment-tower/detail/9c24cb9f-82b2-4984-afe0-162fb26879dc/"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-08-graham-market",
+      "route_order": 8,
+      "location_name": "Graham Street Market",
+      "district": "Central",
+      "address": "Around 14 Gage Street and Graham Street, Central",
+      "coordinates": {
+        "latitude": 22.282993,
+        "longitude": 114.153534,
+        "status": "working"
+      },
+      "location_type": ["open_air_market"],
+      "film": {
+        "film_id": "film-chungking-express-1994",
+        "title": "Chungking Express",
+        "release_year": 1994,
+        "directors": ["Wong Kar-wai"]
+      },
+      "visual_style_id": "neon_transition_1990_2004",
+      "scene": {
+        "summary": "Faye moves through the market, where produce stalls, awnings, and narrow streets turn ordinary errands into fluid urban imagery.",
+        "shot_anchor": "The market passage around 14 Gage Street and the junction with Graham Street.",
+        "camera_direction": null
+      },
+      "current_state": "The market still operates, but redevelopment has changed some stalls and building outlines.",
+      "access": {
+        "level": "public_space",
+        "notes": "Avoid blocking vendors and customers. Ask before making close photographs of stalls or people."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "initial_pass",
+        "risk_or_gap": "The film connection is clear, but individual stalls may have moved or disappeared.",
+        "next_action": "Map stall positions from the 1994 frame and record each element as surviving, removed, or replaced."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://filmoblivion.com/filming-locations-chungking-express-1994/"
+        },
+        {
+          "role": "secondary",
+          "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-graham-street-market.html"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-09-escalator",
+      "route_order": 9,
+      "location_name": "Central–Mid-Levels Escalator",
+      "district": "Central",
+      "address": "Cochrane Street and Hollywood Road section, Central",
+      "coordinates": {
+        "latitude": 22.283918,
+        "longitude": 114.154968,
+        "status": "working"
+      },
+      "location_type": ["pedestrian_system", "escalator"],
+      "film": {
+        "film_id": "film-chungking-express-1994",
+        "title": "Chungking Express",
+        "release_year": 1994,
+        "directors": ["Wong Kar-wai"]
+      },
+      "visual_style_id": "neon_transition_1990_2004",
+      "scene": {
+        "summary": "Faye passes on the escalator and looks toward Cop 663's home. The moving viewpoint becomes part of their indirect relationship.",
+        "shot_anchor": "The Cochrane Street to Hollywood Road section. The exact window and escalator segment still need frame confirmation.",
+        "camera_direction": null
+      },
+      "current_state": "The system remains operational and several sections have been renewed. Peak periods are crowded.",
+      "access": {
+        "level": "public_space",
+        "notes": "Do not stop on the moving escalator or obstruct commuters. Confirm operating direction before the visit."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "initial_pass",
+        "risk_or_gap": "The system is long. A generic pin would not identify the film-specific segment.",
+        "next_action": "Limit the website entry to the Cochrane Street and Hollywood Road section and record its operating direction."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://www.cathaypacific.com/cx/zh_TW/inspiration/hong-kong/director-wong-kar-wais-hong-kong.html"
+        },
+        {
+          "role": "secondary",
+          "url": "https://filmoblivion.com/filming-locations-chungking-express-1994/"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-10-midnight-express",
+      "route_order": 10,
+      "location_name": "3 Lan Kwai Fong, Former Midnight Express Site",
+      "district": "Central",
+      "address": "3 Lan Kwai Fong, Central",
+      "coordinates": {
+        "latitude": 22.280842,
+        "longitude": 114.155617,
+        "status": "working"
+      },
+      "location_type": ["former_shop", "street"],
+      "film": {
+        "film_id": "film-chungking-express-1994",
+        "title": "Chungking Express",
+        "release_year": 1994,
+        "directors": ["Wong Kar-wai"]
+      },
+      "visual_style_id": "neon_transition_1990_2004",
+      "scene": {
+        "summary": "The Midnight Express food stall is the meeting place for Cop 663 and Faye and the emotional centre of the film's second story.",
+        "shot_anchor": "The former shopfront and its Lan Kwai Fong street corner. Only a site comparison is possible today.",
+        "camera_direction": null
+      },
+      "current_state": "The original shop and its architectural context have changed. The current site no longer reproduces the film appearance.",
+      "access": {
+        "level": "exterior_only",
+        "notes": "Treat the stop as a then-and-now comparison, not a preserved set."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "Its value comes from place memory rather than a preserved film location. Current photographs must not be presented as the original shop.",
+        "next_action": "Use a then-and-now treatment and label the location clearly as a redeveloped former site."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://filmoblivion.com/filming-locations-chungking-express-1994/"
+        },
+        {
+          "role": "secondary",
+          "url": "https://www.timeout.com/hong-kong/film/then-and-now-iconic-locations-from-wong-kar-wais-chungking-express"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-11-duddell",
+      "route_order": 11,
+      "location_name": "Duddell Street Steps and Gas Lamps",
+      "district": "Central",
+      "address": "Duddell Street at Ice House Street, Central",
+      "coordinates": {
+        "latitude": 22.28017,
+        "longitude": 114.15749,
+        "status": "working"
+      },
+      "location_type": ["declared_monument", "stone_steps"],
+      "film": {
+        "film_id": "film-king-comedy-1999",
+        "title": "King of Comedy",
+        "release_year": 1999,
+        "directors": ["Stephen Chow", "Lee Lik-chi"]
+      },
+      "visual_style_id": "neon_transition_1990_2004",
+      "scene": {
+        "summary": "The steps and gas lamps appear around Lau Piu-piu's introduction and create a theatrical urban entrance.",
+        "shot_anchor": "The granite steps and four gas lamps at the Ice House Street end.",
+        "camera_direction": null
+      },
+      "current_state": "The steps and gas lamps have been restored and remain a public monument.",
+      "access": {
+        "level": "public_space",
+        "notes": "The steps are narrow. Keep tripods and groups clear of pedestrian circulation."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The explicit film association currently depends mainly on one media location guide. Night photography may match the atmosphere better but complicates the route.",
+        "next_action": "Add a film timecode, scout in daylight, and decide whether a separate evening photograph is necessary."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://www.dotdotnews.com/a/202210/19/AP634fb030e4b0adad9d62c734.html"
+        },
+        {
+          "role": "secondary",
+          "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-duddell-street.html"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-12-jackson-road",
+      "route_order": 12,
+      "location_name": "Jackson Road Beside the Cenotaph",
+      "district": "Central",
+      "address": "Jackson Road beside the Cenotaph, Central",
+      "coordinates": {
+        "latitude": 22.281547,
+        "longitude": 114.160622,
+        "status": "working"
+      },
+      "location_type": ["road", "monument_edge"],
+      "film": {
+        "film_id": "film-better-tomorrow-1986",
+        "title": "A Better Tomorrow",
+        "release_year": 1986,
+        "directors": ["John Woo"]
+      },
+      "visual_style_id": "classic_cinema_1960_1989",
+      "scene": {
+        "summary": "Mark eats rice rolls beside Jackson Road, using an ordinary street-vendor moment at the edge of the financial district to establish his condition.",
+        "shot_anchor": "The Jackson Road section beside the Cenotaph. The original street stall is no longer present.",
+        "camera_direction": null
+      },
+      "current_state": "The road and Cenotaph remain, but the mobile food stall cannot be recreated as an existing feature.",
+      "access": {
+        "level": "public_space",
+        "notes": "Respect monument boundaries, events, and pedestrian routes."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The fixed landmarks can be verified, but the defining vendor stall and props have disappeared.",
+        "next_action": "Use the road edge and Cenotaph for alignment and do not imply that the original stall survives."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://www.cathaypacific.com/cx/en_HK/inspiration/hong-kong/iconic-hong-kong-movie-locations.html"
+        },
+        {
+          "role": "secondary",
+          "url": "https://www.wikidata.org/wiki/Q986377"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-13-central-pier-7",
+      "route_order": 13,
+      "location_name": "Central Star Ferry Pier 7",
+      "district": "Central Waterfront",
+      "address": "Central Pier No. 7, Man Kwong Street, Central",
+      "coordinates": {
+        "latitude": 22.290556,
+        "longitude": 114.161389,
+        "status": "working"
+      },
+      "location_type": ["ferry_pier", "transport_building"],
+      "film": {
+        "film_id": "film-cold-war-2012",
+        "title": "Cold War",
+        "release_year": 2012,
+        "directors": ["Longman Leung", "Sunny Luk"]
+      },
+      "visual_style_id": "contemporary_hong_kong_2005_2012",
+      "scene": {
+        "summary": "The pier and transport interchange support the ransom and pursuit narrative and provide the route's transition away from Hong Kong Island.",
+        "shot_anchor": "The Pier 7 entrance, waiting area, and boarding path. The exact sub-location requires a film timecode.",
+        "camera_direction": null
+      },
+      "current_state": "The pier remains operational. Photography must not obstruct passengers or staff.",
+      "access": {
+        "level": "public_transport_space",
+        "notes": "Some areas require a valid ferry fare. Follow operating and photography instructions."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The film may use the entrance, waiting area, vessel, or nearby waterfront. One general map pin is insufficient.",
+        "next_action": "Add a timecode and record separate anchors for the entrance, gate, and vessel if the scene uses all three."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://www.dotdotnews.com/a/202210/19/AP634fb030e4b0adad9d62c734.html"
+        },
+        {
+          "role": "secondary",
+          "url": "https://www.wikidata.org/wiki/Q7600710"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-14-chungking-mansions",
+      "route_order": 14,
+      "location_name": "Chungking Mansions",
+      "district": "Tsim Sha Tsui",
+      "address": "36–44 Nathan Road, Tsim Sha Tsui",
+      "coordinates": {
+        "latitude": 22.296621,
+        "longitude": 114.172707,
+        "status": "working"
+      },
+      "location_type": ["mixed_use_building", "commercial_space"],
+      "film": {
+        "film_id": "film-chungking-express-1994",
+        "title": "Chungking Express",
+        "release_year": 1994,
+        "directors": ["Wong Kar-wai"]
+      },
+      "visual_style_id": "neon_transition_1990_2004",
+      "scene": {
+        "summary": "The opening pursuit and first story use the building's dense, multicultural passages and commercial networks to create an urban maze.",
+        "shot_anchor": "The Nathan Road entrance, ground-floor arcade, and film passageways must be treated as separate anchors.",
+        "camera_direction": null
+      },
+      "current_state": "The building remains in intensive use. Its interior mixes semi-public commercial areas with residential and hospitality spaces.",
+      "access": {
+        "level": "limited_access",
+        "notes": "Use the exterior by default. Obtain permission for interior filming and avoid recording identifiable people."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "Interior filming affects merchants, guests, residents, and security. Film shots may span several entrances and floors.",
+        "next_action": "Prepare an exterior-only version. Request permission before any interior work and separate each interior anchor."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://www.cathaypacific.com/cx/zh_TW/inspiration/hong-kong/director-wong-kar-wais-hong-kong.html"
+        },
+        {
+          "role": "secondary",
+          "url": "https://www.latlong.net/location/chungking-express-locations-592"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "loc-15-old-ymt-police",
+      "route_order": 15,
+      "location_name": "Old Yau Ma Tei Police Station",
+      "district": "Yau Ma Tei",
+      "address": "627 Canton Road, Yau Ma Tei",
+      "coordinates": {
+        "latitude": 22.30952,
+        "longitude": 114.16856,
+        "status": "working"
+      },
+      "location_type": ["historic_police_station", "exhibition_space"],
+      "film": {
+        "film_id": "film-election-2005",
+        "title": "Election",
+        "release_year": 2005,
+        "directors": ["Johnnie To"]
+      },
+      "visual_style_id": "contemporary_hong_kong_2005_2012",
+      "scene": {
+        "summary": "The police-station exterior represents the law-enforcement spaces used across Hong Kong crime cinema. This project uses Election as the primary film association.",
+        "shot_anchor": "The V-shaped main block, entrance, and street corner at Canton Road and Public Square Street.",
+        "camera_direction": null
+      },
+      "current_state": "The former station now hosts the Yau Ma Tei Police Station: A Cinematic Journey exhibition. Access depends on its current reservation arrangements.",
+      "access": {
+        "level": "reservation_required",
+        "notes": "Check the official booking and admission arrangements before visiting."
+      },
+      "route_fit": "one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "initial_pass",
+        "risk_or_gap": "Many productions are associated with the station. The website must select one primary film and verify its exact shot.",
+        "next_action": "Confirm the Election timecode. If the shot cannot be verified, use a film explicitly documented by the official exhibition."
+      },
+      "sources": [
+        {
+          "role": "primary",
+          "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-old-yau-ma-tei-police-station.html"
+        },
+        {
+          "role": "secondary",
+          "url": "https://fpf.ccidahk.gov.hk/en/ymtps/ymtps.html"
+        }
+      ],
+      "source_checked_date": "2026-09-09"
+    }
+  ]
+}

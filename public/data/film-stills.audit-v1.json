@@ -1,0 +1,790 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "title": "Hong Kong Through Film — Film Still Audit V1",
+    "content_language": "en",
+    "checked_date": "2026-09-11",
+    "scope_count": 19,
+    "grade_counts": {
+      "A": 19,
+      "B": 0,
+      "C": 0
+    },
+    "grade_definitions": {
+      "A": "An exact scene still is paired with a source page that explicitly identifies the target location.",
+      "B": "A film still exists and the filming location is supported, but the candidate frame has not yet been matched to the target place.",
+      "C": "No reliable exact online frame is ready for use; capture from an authorised viewing copy is required after the film–location relationship is verified."
+    },
+    "rights_policy": "These are research candidates, not cleared website assets. Public availability and attribution do not themselves grant reuse permission. Do not hotlink. Before publication, confirm the course's quotation/fair-dealing policy or obtain permission, use only the minimum image needed for critical commentary, and retain both film-rights and source-page credits.",
+    "default_usage_note": "Research candidate only. Rights remain with the credited or otherwise unidentified rights holder; verify permission or the applicable classroom exception before publishing."
+  },
+  "records": [
+    {
+      "location_id": "v2-01-jackson-road",
+      "grade": "A",
+      "film": {
+        "title": "A Better Tomorrow",
+        "year": 1986
+      },
+      "location_name": "Jackson Road Beside the Cenotaph",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://film-pilgrimage.com/wp-content/uploads/2017/02/01-e88bb1e99b84e69cace889b2-01.jpg?w=620",
+        "source_page_url": "https://film-pilgrimage.com/2017/02/16/%E8%8B%B1%E9%9B%84%E6%9C%AC%E8%89%B2-2/",
+        "source_page_title": "Film Pilgrimage — A Better Tomorrow locations",
+        "image_locator": "Image under the Jackson Road section; the page identifies Mark's rice-roll introduction at this location.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-01-jackson-road.webp",
+          "mime_type": "image/webp",
+          "bytes": 27564,
+          "sha256": "9f404a2fe529762caf2f49f29faab773b1f0bdbf60dfa7c5a95a361ba5180049",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from A Better Tomorrow. © 2010 星空華文傳媒電影有限公司. Source page: Film Pilgrimage.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Mark pauses for steamed rice rolls on Jackson Road beside Central's monumental civic architecture in A Better Tomorrow (1986).",
+      "alt_text_en": "Chow Yun-fat as Mark eating rice rolls at a street stall on Jackson Road in A Better Tomorrow.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "Heroic Cinema at Ground Level",
+          "support_level": "direct",
+          "supported_claim": "The scene places Mark's fragile street-level routine beside the formal scale of Central."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "The Most Modest Table on the Route",
+          "support_level": "direct",
+          "supported_claim": "The rice-roll meal is quick, public, inexpensive, and no longer tied to a surviving stall."
+        }
+      ],
+      "classification_reason": "The source page supplies the still, names Jackson Road, describes the rice-roll action, and gives a film copyright credit.",
+      "next_action": "Retain as the lead candidate; seek reuse clearance or apply the course's documented critical-commentary policy before adding a local copy."
+    },
+    {
+      "location_id": "v2-02-duddell-street",
+      "grade": "A",
+      "film": {
+        "title": "King of Comedy",
+        "year": 1999
+      },
+      "location_name": "Duddell Street Steps and Gas Lamps",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://dw-media.dotdotnews.com/dams/product/image/202210/19/634f7209e4b03aa1237bc88c.png?x-oss-process=image%2Fresize%2Cw_1200",
+        "source_page_url": "https://www.dotdotnews.com/a/202210/19/AP634fb030e4b0adad9d62c734.html",
+        "source_page_title": "DotDotNews — Guide to ten classic Hong Kong film locations",
+        "image_locator": "Still captioned as King of Comedy beneath the Duddell Street heading.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-02-duddell-street.png",
+          "mime_type": "image/png",
+          "bytes": 503344,
+          "sha256": "5c98ca7b4527cb181105a4334b93da13e4d4ce2c6d659c393fa3554f926300ce",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from King of Comedy (1999); reproduced by DotDotNews. Underlying film rights holder not stated on the source page.",
+      "reuse_status": "rights_holder_unconfirmed; permission_not_confirmed",
+      "caption_en": "Lau Piu-piu makes her entrance on the Duddell Street steps in King of Comedy (1999).",
+      "alt_text_en": "Cecilia Cheung as Lau Piu-piu on the granite steps and gas-lamp setting of Duddell Street.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "Old Infrastructure, New Performance",
+          "support_level": "direct",
+          "supported_claim": "The granite stair and gas lamps turn inherited infrastructure into a theatrical entrance."
+        }
+      ],
+      "classification_reason": "The still and the location description appear together under a clearly labelled Duddell Street section.",
+      "next_action": "Verify the rightsholder credit from the film's official end credits or distributor before publication."
+    },
+    {
+      "location_id": "v2-03-midnight-express",
+      "grade": "A",
+      "film": {
+        "title": "Chungking Express",
+        "year": 1994
+      },
+      "location_name": "Former Midnight Express Site",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://filmoblivion.com/wp-content/uploads/2021/02/sc-chungkingexpress1.jpg?w=1000",
+        "source_page_url": "https://filmoblivion.com/filming-locations-chungking-express-1994/",
+        "source_page_title": "Film Oblivion — Filming Locations: Chungking Express (1994)",
+        "image_locator": "Image labelled Exterior — Midnight Express, with the address 3 Lan Kwai Fong.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-03-midnight-express.webp",
+          "mime_type": "image/webp",
+          "bytes": 65292,
+          "sha256": "dff51d486a8877cc9186709cd2710d1fa65e17dd56486475708641372fe857e6",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film images © 1994 Jet Tone Productions Ltd. Source page: Film Oblivion.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "The Midnight Express takeaway counter structures the repeated meetings between Faye and Cop 663 in Chungking Express (1994).",
+      "alt_text_en": "Faye and Cop 663 at the former Midnight Express takeaway counter in Chungking Express.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "An Everyday Interior Becomes Film Memory",
+          "support_level": "direct",
+          "supported_claim": "A compact service counter becomes an intimate narrative space even though the original shop has disappeared."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "The Counter Between Worker and Customer",
+          "support_level": "direct",
+          "supported_claim": "Serving, waiting, and returning turn food work into social choreography."
+        }
+      ],
+      "classification_reason": "The source provides a still, a precise location label and address, and an explicit Jet Tone copyright line.",
+      "next_action": "Use this as the primary candidate; a timecode is optional, but a final frame comparison should confirm the most legible counter view."
+    },
+    {
+      "location_id": "v2-04-pottinger-street",
+      "grade": "A",
+      "film": {
+        "title": "Infernal Affairs III",
+        "year": 2003
+      },
+      "location_name": "Pottinger Street Stone Steps",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://www.cityintime.hk/media/2020/09/Infernal-Affairs-III-1.jpg",
+        "source_page_url": "https://www.cityintime.hk/en/article/central-pottinger-street-ca-1930/",
+        "source_page_title": "City in Time — Central: Pottinger Street, ca. 1930",
+        "image_locator": "Film frame displayed beside text identifying Chan walking on Pottinger Street while eating an apple and speaking to his boss.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-04-pottinger-street.jpg",
+          "mime_type": "image/jpeg",
+          "bytes": 45815,
+          "sha256": "42535f6a55fc0c671373e98cbfa6d1c4bd52ea1f2a6c5c5862e2b6c1c8efc598",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from Infernal Affairs III (2003), courtesy of Media Asia Film Distribution (HK) Limited. Source page: City in Time.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Tony Leung's character moves along Pottinger Street's stone steps in Infernal Affairs III (2003).",
+      "alt_text_en": "Tony Leung walking on the sloped stone paving of Pottinger Street in Infernal Affairs III.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "A Layered Street in the Early 2000s",
+          "support_level": "direct",
+          "supported_claim": "The modern crime drama overlays walking and phone use on a nineteenth-century street form."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "Eating Without Stopping",
+          "support_level": "direct",
+          "supported_claim": "The apple turns eating into a portable action folded into movement and dialogue."
+        }
+      ],
+      "classification_reason": "City in Time pairs the exact frame with text naming Infernal Affairs III, Pottinger Street, Chan's apple, and his phone conversation, and credits Media Asia Film Distribution (HK) Limited.",
+      "next_action": "Retain the City in Time source and Media Asia credit; clear the classroom-use basis before publishing the image as a local asset."
+    },
+    {
+      "location_id": "v2-05-graham-market",
+      "grade": "A",
+      "film": {
+        "title": "Chungking Express",
+        "year": 1994
+      },
+      "location_name": "Graham Street Market / Gage Street",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://filmoblivion.com/wp-content/uploads/2021/02/sc-chungkingexpress10.jpg?w=1000",
+        "source_page_url": "https://filmoblivion.com/filming-locations-chungking-express-1994/",
+        "source_page_title": "Film Oblivion — Filming Locations: Chungking Express (1994)",
+        "image_locator": "Image labelled Exterior — Faye runs into Cop 663, Graham Street Market, 14 Gage Street.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-05-graham-market.webp",
+          "mime_type": "image/webp",
+          "bytes": 39070,
+          "sha256": "667eafbf934b69a7308cebc424525be09597ec8c741e651bbea003853e320d28",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film images © 1994 Jet Tone Productions Ltd. Source page: Film Oblivion.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Faye moves through Graham Street Market, where everyday produce trade becomes part of Chungking Express's urban rhythm.",
+      "alt_text_en": "Faye among the produce stalls of Graham Street Market in Chungking Express.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "Everyday Central in 1994",
+          "support_level": "direct",
+          "supported_claim": "The market's dense working environment gives the film texture without monumental spectacle."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "From Screen Meal to Supply System",
+          "support_level": "direct",
+          "supported_claim": "Produce display and market circulation reveal the labour behind a finished meal."
+        }
+      ],
+      "classification_reason": "The page links the film image to a named scene and the exact Graham Street Market address, with an explicit film copyright line.",
+      "next_action": "Use the frame as the market candidate; do not imply that present-day vendors or stall layouts are unchanged."
+    },
+    {
+      "location_id": "v2-06-escalator",
+      "grade": "A",
+      "film": {
+        "title": "Chungking Express",
+        "year": 1994
+      },
+      "location_name": "Central–Mid-Levels Escalator",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://filmoblivion.com/wp-content/uploads/2021/02/sc-chungkingexpress4.jpg?w=1000",
+        "source_page_url": "https://filmoblivion.com/filming-locations-chungking-express-1994/",
+        "source_page_title": "Film Oblivion — Filming Locations: Chungking Express (1994)",
+        "image_locator": "Image labelled Exterior — Escalators, Central–Mid-Levels Escalators at Jubilee Street.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-06-escalator.webp",
+          "mime_type": "image/webp",
+          "bytes": 47088,
+          "sha256": "4675f2ffe0fc993c28c889fb2d017275d6da2fc46f2400b8bdf3be429d7f224c",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film images © 1994 Jet Tone Productions Ltd. Source page: Film Oblivion.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "The Central–Mid-Levels Escalator turns mechanical movement and elevated looking into part of the romance in Chungking Express.",
+      "alt_text_en": "Faye riding the Central–Mid-Levels Escalator in a scene from Chungking Express.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "Infrastructure Enters the Romance",
+          "support_level": "direct",
+          "supported_claim": "Transport infrastructure creates movement, partial sightlines, and a link between public travel and private desire."
+        }
+      ],
+      "classification_reason": "The source page pairs the still with a precise escalator label and location and credits Jet Tone.",
+      "next_action": "Before giving reenactment directions, match the exact escalator segment and camera direction against current access conditions."
+    },
+    {
+      "location_id": "v2-07-central-pier-7",
+      "grade": "A",
+      "film": {
+        "title": "Cold War",
+        "year": 2012
+      },
+      "location_name": "Central Star Ferry Pier 7",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://dw-media.dotdotnews.com/dams/product/image/202210/19/634f7467e4b03aa1237bca1b.png?x-oss-process=image%2Fresize%2Cw_1200",
+        "source_page_url": "https://www.dotdotnews.com/a/202210/19/AP634fb030e4b0adad9d62c734.html",
+        "source_page_title": "DotDotNews — Guide to ten classic Hong Kong film locations",
+        "image_locator": "Still captioned as Cold War beneath the Central Star Ferry Pier heading.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-07-central-pier-7.png",
+          "mime_type": "image/png",
+          "bytes": 450304,
+          "sha256": "a58dc16e1e59bd2f5a7e26138b886dae06a01101f1a864648c8309e24e2c7002",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from Cold War (2012); reproduced by DotDotNews. Underlying film rights holder not stated on the source page.",
+      "reuse_status": "rights_holder_unconfirmed; permission_not_confirmed",
+      "caption_en": "Lau Kit-fai carries the ransom through the Central Star Ferry interchange in Cold War (2012).",
+      "alt_text_en": "Aaron Kwok as Lau Kit-fai carrying ransom money at Central Star Ferry Pier in Cold War.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "A Transport Node in the Networked Metropolis",
+          "support_level": "direct",
+          "supported_claim": "The ransom sequence turns an everyday transport interchange into a network of timing, surveillance, and pursuit."
+        }
+      ],
+      "classification_reason": "The source labels the image as a Cold War still and explicitly identifies the ransom action at Central Star Ferry Pier.",
+      "next_action": "Confirm whether the frame identifies Pier 7 specifically or the wider Central ferry interchange before writing a camera-position instruction."
+    },
+    {
+      "location_id": "v2-08-avenue-of-stars",
+      "grade": "A",
+      "film": {
+        "title": "Daddy Cool",
+        "year": 2009
+      },
+      "location_name": "Avenue of Stars",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0vqeUAuiJIC2HyS02vsaRghfSc8k9VU9FYFYSeNjleR9j1-cX-ElMKpug40cMzS5bugim_sgORNs6zmNstHPK565TRRBoX9w0_Sw96bewSClq5p37zd9RR4PG99MXhxX2US0B3fB5I5-BxghOOawHvItyADfRFOOfyFhozU33rhVsUO5QZDNOTaQzOeg/s1142/Screenshot%202026-08-02%20200152.png",
+        "source_page_url": "https://hkmacaufilmtvlocations.blogspot.com/2026/09/daddy-cool-mammootty-2009-avenue-of.html",
+        "source_page_title": "Hong Kong and Macau Film & TV Locations — Daddy Cool at Avenue of Stars",
+        "image_locator": "First film frame on a page stating that the musical set piece was filmed along the old Avenue of Stars in Tsim Sha Tsui.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-08-avenue-of-stars.png",
+          "mime_type": "image/png",
+          "bytes": 565957,
+          "sha256": "5bf05ee0e799d0a0911d952facd3b63e81cc82ab8a84b21365cb346a2d88174a",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Screen capture from Daddy Cool (2009); source: Hong Kong and Macau Film & TV Locations. Underlying film rights holder not stated.",
+      "reuse_status": "rights_holder_unconfirmed; permission_not_confirmed",
+      "caption_en": "The old Avenue of Stars becomes a harbourfront performance space during a musical sequence in Daddy Cool (2009).",
+      "alt_text_en": "Performers on the old Avenue of Stars beside Victoria Harbour in a musical scene from Daddy Cool.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "Waterfront Spectacle Before Renovation",
+          "support_level": "direct",
+          "supported_claim": "The musical sequence turns the old promenade and harbour panorama into a public performance space."
+        }
+      ],
+      "classification_reason": "The source page explicitly locates the film's musical set piece on the old Avenue of Stars and presents the matching film frames on the same page.",
+      "next_action": "Use the frame only for critical comparison with the pre-renovation promenade; identify the film rightsholder before publication."
+    },
+    {
+      "location_id": "v2-09-middle-road-ymca",
+      "grade": "A",
+      "film": {
+        "title": "Comrades, Almost a Love Story",
+        "year": 1996
+      },
+      "location_name": "Middle Road Opposite The Salisbury YMCA",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://film-pilgrimage.com/wp-content/uploads/2019/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2019-01-11-%E4%B8%8B%E5%8D%884.59.41.jpg?w=620",
+        "source_page_url": "https://film-pilgrimage.com/2019/01/11/%E3%80%8A%E7%94%9C%E8%9C%9C%E8%9C%9C%E3%80%8B%E7%9A%84%E5%B0%96%E6%B2%99%E5%92%80/",
+        "source_page_title": "Film Pilgrimage — Tsim Sha Tsui in Comrades, Almost a Love Story",
+        "image_locator": "Still under the Middle Road heading.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-09-middle-road-ymca.webp",
+          "mime_type": "image/webp",
+          "bytes": 16388,
+          "sha256": "359cbdd51f270a7a9341a4216b67ef042307f41d408ee79f51285317555908e0",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from Comrades, Almost a Love Story. © 1996 Warner Bros. Pictures. Source page: Film Pilgrimage.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Li Qiao and Xiao-jun pause on Middle Road opposite the Salisbury YMCA in Comrades, Almost a Love Story (1996).",
+      "alt_text_en": "Maggie Cheung and Leon Lai in the Middle Road reunion scene opposite the Salisbury YMCA.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "The Emotional Geography of Arrival",
+          "support_level": "direct",
+          "supported_claim": "An ordinary roadside becomes an emotional anchor for a story shaped by migration and repeated movement."
+        }
+      ],
+      "classification_reason": "The source labels the image under Middle Road, explains the reunion, and provides a Warner Bros. still credit.",
+      "next_action": "Use the frame for spatial comparison; do not add a food claim because the selected scene does not document a meal."
+    },
+    {
+      "location_id": "v2-10-chungking-mansions",
+      "grade": "A",
+      "film": {
+        "title": "Chungking Express",
+        "year": 1994
+      },
+      "location_name": "Chungking Mansions",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://filmoblivion.com/wp-content/uploads/2021/02/sc-chungkingexpress5.jpg?w=1000",
+        "source_page_url": "https://filmoblivion.com/filming-locations-chungking-express-1994/",
+        "source_page_title": "Film Oblivion — Filming Locations: Chungking Express (1994)",
+        "image_locator": "Image labelled Interior / Exterior — Chungking Mansion, 36–44 Nathan Road.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-10-chungking-mansions.webp",
+          "mime_type": "image/webp",
+          "bytes": 44872,
+          "sha256": "1785ab1baf34c820e07b2e48e5f19cdb4da2ca4bec6e5c2a6881b33969373851",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film images © 1994 Jet Tone Productions Ltd. Source page: Film Oblivion.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Chungking Mansions becomes a compressed maze of corridors, commerce, and pursuit in Chungking Express (1994).",
+      "alt_text_en": "A pursuit scene inside or at the entrance of Chungking Mansions in Chungking Express.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "The Other Scale of Chungking Express",
+          "support_level": "direct",
+          "supported_claim": "The building supplies a crowded, transnational urban scale that contrasts with the film's intimate takeaway counter."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "From Cinematic Labyrinth to Transnational Foodways",
+          "support_level": "boundary",
+          "supported_claim": "The still supports the cinematic labyrinth, while present-day foodways remain separately labelled contemporary context."
+        }
+      ],
+      "classification_reason": "The source pairs a film image with an explicit interior/exterior location label, address, and Jet Tone copyright line.",
+      "next_action": "Select an exterior or clearly public-area frame; avoid encouraging visitors to enter residential or restricted areas for reenactment."
+    },
+    {
+      "location_id": "v2-11-canton-road",
+      "grade": "A",
+      "film": {
+        "title": "Comrades, Almost a Love Story",
+        "year": 1996
+      },
+      "location_name": "Canton Road, Harbour City Section",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://film-pilgrimage.com/wp-content/uploads/2019/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2019-01-11-%E4%B8%8B%E5%8D%884.59.31.jpg?w=620",
+        "source_page_url": "https://film-pilgrimage.com/2019/01/11/%E3%80%8A%E7%94%9C%E8%9C%9C%E8%9C%9C%E3%80%8B%E7%9A%84%E5%B0%96%E6%B2%99%E5%92%80/",
+        "source_page_title": "Film Pilgrimage — Tsim Sha Tsui in Comrades, Almost a Love Story",
+        "image_locator": "Still under the Canton Road heading.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-11-canton-road.webp",
+          "mime_type": "image/webp",
+          "bytes": 24840,
+          "sha256": "dbbf7041a8ef43da2187bbc6d911c3e64da24faf0971ab6d1821b7fbe81401e5",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from Comrades, Almost a Love Story. © 1996 Warner Bros. Pictures. Source page: Film Pilgrimage.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Xiao-jun carries Li Qiao by bicycle along Canton Road in Comrades, Almost a Love Story (1996).",
+      "alt_text_en": "Leon Lai cycling with Maggie Cheung as his passenger on Canton Road in Comrades, Almost a Love Story.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "A 1996 Relationship in Motion",
+          "support_level": "direct",
+          "supported_claim": "Cycling places the relationship at a human speed within Tsim Sha Tsui's commercial traffic."
+        }
+      ],
+      "classification_reason": "The source labels the scene as Canton Road, describes the bicycle action, and supplies a Warner Bros. copyright credit.",
+      "next_action": "Do not ask visitors to reproduce the bicycle route in traffic; use the still only for safe, stationary spatial comparison."
+    },
+    {
+      "location_id": "v2-12-man-wah-sun-chuen",
+      "grade": "A",
+      "film": {
+        "title": "Breaking News",
+        "year": 2004
+      },
+      "location_name": "Man Wah Sun Chuen",
+      "candidate_image": {
+        "status": "exact_location_still",
+        "image_url": "https://film-pilgrimage.com/wp-content/uploads/2017/05/32-01-e585abe69687e6a893e79a84e3808ce5a4a7e4ba8be4bbb6e3808d.jpg?w=620",
+        "source_page_url": "https://film-pilgrimage.com/2017/05/29/%E5%85%AB%E6%96%87%E6%A8%93%E7%9A%84%E3%80%8C%E5%A4%A7%E4%BA%8B%E4%BB%B6%E3%80%8D/",
+        "source_page_title": "Film Pilgrimage — Breaking News at the Eight Man Wah Buildings",
+        "image_locator": "Lead image on a page explicitly identifying Man Wah Sun Chuen as the film's principal battleground.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-12-man-wah-sun-chuen.webp",
+          "mime_type": "image/webp",
+          "bytes": 23932,
+          "sha256": "094c000a445b9bb6ddfe4f7c8e4088b6cccbac55fde209acce7eb6ce00a0676b",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from Breaking News. © 2015 Media Asia Film. Source page: Film Pilgrimage.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Man Wah Sun Chuen supplies the residential setting for the prolonged police confrontation in Breaking News (2004).",
+      "alt_text_en": "The Man Wah Sun Chuen residential blocks as seen in Breaking News.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "The Residential City Under Observation",
+          "support_level": "direct",
+          "supported_claim": "The estate turns domestic circulation and housing into the spatial field of a highly visible police operation."
+        }
+      ],
+      "classification_reason": "The source page displays film imagery, explicitly names Man Wah Sun Chuen and Breaking News, and supplies a Media Asia film credit.",
+      "next_action": "Keep this exterior/location frame for the historical text. Obtain a separate meal-preparation still if the website visually supports the food section Cooking Under Siege."
+    },
+    {
+      "location_id": "v2-13-old-ymt-police",
+      "grade": "A",
+      "film": {
+        "title": "Election",
+        "year": 2005
+      },
+      "location_name": "Old Yau Ma Tei Police Station",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://had18.huluhk.org/uploadedFile/18228148011595558383.jpg",
+        "source_page_url": "https://had18.huluhk.org/article-detail.php?id=362",
+        "source_page_title": "Culture Hulu — Old Yau Ma Tei Police Station",
+        "image_locator": "Film frame captioned as the scene in Election after Big D and Lok leave Old Yau Ma Tei Police Station.",
+        "corroborating_location_url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-old-yau-ma-tei-police-station.html",
+        "correction_note": "The former Infernal Affairs assignment was removed: HK01 documents it as a common misidentification and the selected Election scene is directly evidenced.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-13-old-ymt-police.jpg",
+          "mime_type": "image/jpeg",
+          "bytes": 484598,
+          "sha256": "394209d3627114c81ac395ab6a26537d2301e25352bdf0558d312f00e7afd223",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from Election (2005). Image credits: Culture Hulu and Media Asia Film Distribution (HK) Limited.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Big D and Lok leave Old Yau Ma Tei Police Station after detention in Election (2005).",
+      "alt_text_en": "Big D and Lok outside Old Yau Ma Tei Police Station in a scene from Election.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "Triad Power Leaves the Police Station",
+          "support_level": "direct",
+          "supported_claim": "The station exterior frames the uneasy boundary between formal police authority and the film's struggle for informal power."
+        }
+      ],
+      "classification_reason": "Culture Hulu pairs an Election frame with a caption identifying the characters leaving Old Yau Ma Tei Police Station; the Hong Kong Tourism Board independently lists Election among films shot there.",
+      "next_action": "Keep Election as the canonical film for this stop and retain the correction note so Infernal Affairs is not reintroduced through secondary lists."
+    },
+    {
+      "location_id": "v2-14-former-carpark-temple-street",
+      "grade": "A",
+      "film": {
+        "title": "C'est la vie, mon chéri",
+        "year": 1993
+      },
+      "location_name": "Temple Street / Former Yau Ma Tei Car Park Site",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://dw-media.dotdotnews.com/dams/product/image/202210/19/634f713ee4b03aa1237bc7f7.jpg?x-oss-process=image%2Fresize%2Cw_1200",
+        "source_page_url": "https://www.dotdotnews.com/a/202210/19/AP634fb030e4b0adad9d62c734.html",
+        "source_page_title": "DotDotNews — Guide to ten classic Hong Kong film locations",
+        "image_locator": "Still captioned as C'est la vie, mon chéri beneath the Temple Street heading.",
+        "location_evidence_url": "https://www.cathaypacific.com/cx/en_HK/inspiration/hong-kong/iconic-hong-kong-movie-locations.html",
+        "location_evidence_note": "Cathay identifies the film's focus as the section of Temple Street beside the former Carpark Building.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-14-former-carpark-temple-street.jpg",
+          "mime_type": "image/jpeg",
+          "bytes": 183077,
+          "sha256": "0ffafafb20bf979c4632deaeca427e88a2e5173ad9124cb5640131713fe60ce7",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from C'est la vie, mon chéri (1993); reproduced by DotDotNews. Underlying film rights holder not stated on the source page.",
+      "reuse_status": "rights_holder_unconfirmed; permission_not_confirmed",
+      "caption_en": "Min and Kit move through the Temple Street performance district beside the former Yau Ma Tei Car Park Building in C'est la vie, mon chéri (1993).",
+      "alt_text_en": "Min and Kit in a Temple Street scene from C'est la vie, mon chéri near the former car park site.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "1993 Remembered Through an Urban Absence",
+          "support_level": "direct",
+          "supported_claim": "The film frame preserves a neighbourhood relationship in which the street survives but a major architectural anchor has been demolished."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "Street Food, Performance, and the Missing Building",
+          "support_level": "context",
+          "supported_claim": "The image supports the night-market and performance environment, not a claim that a specific current food business appeared in the film."
+        }
+      ],
+      "classification_reason": "The still is explicitly labelled for the film and Temple Street; Cathay independently narrows the scene to the section beside the former Carpark Building.",
+      "next_action": "Pair the still with a present-day image that clearly shows the missing-building condition; keep current food businesses labelled as contemporary context."
+    },
+    {
+      "location_id": "v2-15-tin-hau-temple",
+      "grade": "A",
+      "film": {
+        "title": "The World of Suzie Wong",
+        "year": 1960
+      },
+      "location_name": "Tin Hau Temple / Yung Shue Tau",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDIwYbaCpOuqG7HV0xYNf8BToKAIqcnqYXgcmNWMVR-i_9Dyq8Vi1Qeiakzrn8cdqpO_Bj8RHT3hjG5q3Cf89AScHxsnzzDmawC-TGtbRk5k0zNbSQI1xBBlFWsRmfopZbhBDicLTMKZI/s1600/vlcsnap-2015-05-15-15h34m28s217.jpg",
+        "source_page_url": "https://hkmacaufilmtvlocations.blogspot.com/2011/05/the-world-of-suzie-wong-william-holden.html",
+        "source_page_title": "Hong Kong and Macau Film & TV Locations — The World of Suzie Wong in Yau Ma Tei",
+        "image_locator": "Later frame in the sequence identified as being filmed outside Tin Hau Temple; the temple's long exterior wall and green shutters fill the right side.",
+        "local_asset": {
+          "url": "/images/film-stills/suzie-tin-hau-wall.jpg",
+          "mime_type": "image/jpeg",
+          "bytes": 66970,
+          "sha256": "d576b1f10e0c86f62ed7dd0d65791fabacf6063626299f580a508203d8212b44",
+          "imported_date": "2026-10-08"
+        }
+      },
+      "copyright_credit": "Screen capture from The World of Suzie Wong (1960); source: Hong Kong and Macau Film & TV Locations. Underlying film rights holder not stated.",
+      "reuse_status": "rights_holder_unconfirmed; permission_not_confirmed",
+      "caption_en": "Outside Tin Hau Temple: its wall and green shutters run along the right of this Yau Ma Tei street frame.",
+      "alt_text_en": "A crowded street beside Tin Hau Temple's long wall and green shutters in The World of Suzie Wong.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "Yau Ma Tei in an International Screen Image",
+          "support_level": "direct",
+          "supported_claim": "The temple wall and market activity establish the Yau Ma Tei street setting in the 1960 film."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "Public Gathering Before Culinary Consumption",
+          "support_level": "context",
+          "supported_claim": "The frame supports the district's social setting outside the temple, but it does not depict a meal inside Mido Cafe."
+        }
+      ],
+      "classification_reason": "The source identifies this sequence as filmed outside Tin Hau Temple; its long exterior wall is visible in the selected frame.",
+      "next_action": "Treat the temple exterior and Mido Cafe exterior as two analytical anchors from the same scene sequence; do not imply that the café interior was filmed."
+    },
+    {
+      "location_id": "v2-16-fruit-market",
+      "grade": "A",
+      "film": {
+        "title": "As Tears Go By",
+        "year": 1988
+      },
+      "location_name": "Yau Ma Tei Wholesale Fruit Market",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://film-pilgrimage.com/wp-content/uploads/2017/05/09-06-e697bae8a792e58da1e99680efbc8de6b2b9e9babbe59cb0e69e9ce6ac84-3.jpg?w=620",
+        "source_page_url": "https://film-pilgrimage.com/2017/05/30/%E6%97%BA%E8%A7%92%E5%8D%A1%E9%96%80/",
+        "source_page_title": "Film Pilgrimage — As Tears Go By locations",
+        "image_locator": "First still under the Yau Ma Tei Wholesale Fruit Market heading.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-16-fruit-market.webp",
+          "mime_type": "image/webp",
+          "bytes": 20366,
+          "sha256": "39aeee02015a39dd46c0741d91c34f67e5c9ec6749ecae914eaed474cf5efaec",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from As Tears Go By. © 1988 影之傑製作有限公司. Source page: Film Pilgrimage.",
+      "reuse_status": "rights_reserved; permission_not_confirmed",
+      "caption_en": "Wah encounters his former girlfriend amid the nocturnal working spaces of Yau Ma Tei Wholesale Fruit Market in As Tears Go By (1988).",
+      "alt_text_en": "Andy Lau as Wah in the Yau Ma Tei Wholesale Fruit Market scene from As Tears Go By.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "A Working Market in Wong Kar-wai's First Feature",
+          "support_level": "direct",
+          "supported_claim": "Loading space, vehicles, and market buildings give the film a working nocturnal texture."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "Food Before It Becomes a Dish",
+          "support_level": "direct",
+          "supported_claim": "The market makes distribution labour visible before food reaches a kitchen or plate."
+        }
+      ],
+      "classification_reason": "The source displays multiple stills under the exact market heading, describes the encounter, gives the intersection, and supplies a film copyright credit.",
+      "next_action": "Use a frame that clearly shows market infrastructure and give visitors safe, non-obstructive viewing guidance for this active workplace."
+    },
+    {
+      "location_id": "v2-17-reclamation-soy",
+      "grade": "A",
+      "film": {
+        "title": "Push",
+        "year": 2009
+      },
+      "location_name": "Reclamation Street × Soy Street",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZxM_iOx4sRAUPhxzCuvLdDc99LtqESEHW3Fed_Z5HDvhGUYKKNV3Ao3Y8Aotr4Et9RL6xFBzRs_Wb5WmflttR-Q-iJ01EsxXUuY0rZrYJNib_4_NxlYRop89kWfV6XEnDXj30hMHW30R2/s400-rw/vlcsnap-00081.jpg",
+        "source_page_url": "https://hkmacaufilmtvlocations.blogspot.com/2016/09/push-chris-evans-2009-soy-street-mongkok.html",
+        "source_page_title": "Hong Kong and Macau Film & TV Locations — Push at Soy Street, Mong Kok",
+        "image_locator": "First film frame on the page; street signs and shop signage are compared with the Reclamation Street × Soy Street corner.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-17-reclamation-soy.webp",
+          "mime_type": "image/webp",
+          "bytes": 10828,
+          "sha256": "ed00dd0254cf4ac807c4472d2bdb8d66c9872719f8f1e1de11f36075be868bbd",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Screen capture from Push (2009); source: Hong Kong and Macau Film & TV Locations. Underlying film rights holder not stated on the page.",
+      "reuse_status": "rights_holder_unconfirmed; permission_not_confirmed",
+      "caption_en": "Shop signs and compressed façades identify the Push (2009) safe-house location at Reclamation Street and Soy Street.",
+      "alt_text_en": "A Push film frame showing signs near the Reclamation Street and Soy Street safe-house corner in Mong Kok.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "A Local Junction in an International Production",
+          "support_level": "direct",
+          "supported_claim": "The identifiable signs and dense commercial surfaces show how an international production used Mong Kok as action-film space."
+        }
+      ],
+      "classification_reason": "The source uses visible street and shop signs to identify the exact corner and compares the film frame with Street View evidence.",
+      "next_action": "Retain the still for the historical reading; keep nearby food businesses separate because the scene does not verify a food action."
+    },
+    {
+      "location_id": "v2-18-hung-wan-cafe",
+      "grade": "A",
+      "film": {
+        "title": "The Lucky Guy",
+        "year": 1998
+      },
+      "location_name": "Hung Wan Café",
+      "candidate_image": {
+        "status": "exact_scene_still",
+        "image_url": "https://xia4xi1.com/wp-content/uploads/2023/04/img_2915.jpg",
+        "source_page_url": "https://xia4xi1.com/2023/04/27/%E3%80%90%E8%8C%B6%E9%A4%90%E5%BB%B3%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%91%E6%98%A0%E7%94%BB%E3%80%8C%E8%A1%8C%E9%81%8B%E4%B8%80%E6%A2%9D%E9%BE%8D%E3%80%8D%E3%81%AE%E6%92%AE/",
+        "source_page_title": "Little Happiness in Hong Kong — Hung Wan Café, filming location of The Lucky Guy",
+        "image_locator": "Film image labelled as the Lucky Café interior, presented beside photographs of Hung Wan Café.",
+        "local_asset": {
+          "url": "/images/film-stills/v2-18-hung-wan-cafe.jpg",
+          "mime_type": "image/jpeg",
+          "bytes": 59465,
+          "sha256": "231adcf9bfee7851399afb6c0190633fe2ed2345eedd4caa2b8c109ebd0f11f2",
+          "imported_date": "2026-09-11"
+        }
+      },
+      "copyright_credit": "Film still from The Lucky Guy (1998), reproduced by Little Happiness in Hong Kong. Underlying film rights holder not stated; source page © 2021 xia4xi1.",
+      "reuse_status": "rights_holder_unconfirmed; permission_not_confirmed",
+      "caption_en": "The Lucky Café interior in The Lucky Guy (1998) was filmed at Hung Wan Café, turning a working cha chaan teng into the comedy's recurring stage.",
+      "alt_text_en": "Stephen Chow and the ensemble inside the Lucky Café set filmed at Hung Wan Café in The Lucky Guy.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "When a Film-Famous Business Changes Hands",
+          "support_level": "direct",
+          "supported_claim": "The frame provides the filmed interior against which later closure, reopening, and alteration can be discussed."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "The Café as Workplace and Memory Business",
+          "support_level": "direct",
+          "supported_claim": "The café operates as workplace, social network, and performance space rather than merely a place where food appears."
+        }
+      ],
+      "classification_reason": "The source explicitly identifies Hung Wan Café as the filming location and places film images beside current interior photographs.",
+      "next_action": "Cross-check the frame against the present interior and update the caption if a later operator has changed the retained features."
+    },
+    {
+      "location_id": "v3-19-mido-cafe",
+      "grade": "A",
+      "film": {
+        "title": "The World of Suzie Wong",
+        "year": 1960
+      },
+      "location_name": "Mido Cafe",
+      "candidate_image": {
+        "status": "exact_exterior_still",
+        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh45AslG-c7xe4Tl9Gpah5pjRjMGzEAHlfmufbnTNKFWAAqtZhmfJrunWFSQo7QMWlesdeam2LTTVtrGQhk-L2hUI6aVRrxwMa2nAjSSD_cUcRrwnF4RNeK-tdlvICEdC392TDmMSwta0o/s1600/vlcsnap-2015-05-14-21h39m30s211.jpg",
+        "source_page_url": "https://hkmacaufilmtvlocations.blogspot.com/2011/05/the-world-of-suzie-wong-william-holden.html",
+        "source_page_title": "Hong Kong and Macau Film & TV Locations — The World of Suzie Wong at Tin Hau Temple and Temple Street",
+        "image_locator": "Second street frame in the source sequence; Mido Cafe's curved upper façade is visible in the upper-left background, beyond the market crowd.",
+        "local_asset": {
+          "url": "/images/film-stills/suzie-mido-background.jpg",
+          "mime_type": "image/jpeg",
+          "bytes": 83145,
+          "sha256": "6fc946df50ea122d044987db16283796cb4249cd51ed8fc495d2e7bd47e2cb74",
+          "imported_date": "2026-10-08"
+        }
+      },
+      "copyright_credit": "Screen capture from The World of Suzie Wong (1960); source: Hong Kong and Macau Film & TV Locations. Underlying film rights holder not stated on the page.",
+      "reuse_status": "rights_holder_unconfirmed; permission_not_confirmed",
+      "caption_en": "Mido Cafe's curved upper façade appears in the upper-left background, beyond the market crowd.",
+      "alt_text_en": "A busy Yau Ma Tei street with Mido Cafe's curved façade in the upper-left background of a World of Suzie Wong frame.",
+      "supports_research_view": [
+        {
+          "narrative_id": "historical-timeline",
+          "section_title": "An International Gaze from 1960",
+          "support_level": "direct",
+          "supported_claim": "The exterior helps show how Yau Ma Tei was used to construct a different cinematic geography of Hong Kong."
+        },
+        {
+          "narrative_id": "cinematic-food-trail",
+          "section_title": "Eating at a Film Landmark Without Rewriting the Evidence",
+          "support_level": "boundary",
+          "supported_claim": "The frame verifies the exterior association while preserving the distinction between film evidence and today's dining interior."
+        }
+      ],
+      "classification_reason": "The source explicitly identifies Mido Cafe's curved exterior within the film frame and explains the surrounding Temple Street geography.",
+      "next_action": "Use this only as exterior evidence. Pair it with an original present-day café photograph if the food narrative needs to show the current interior."
+    }
+  ]
+}

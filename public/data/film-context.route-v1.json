@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0.0",
+  "editorial_rule": "Introduce the film and its cinematic context first; interpret the selected scene second; identify the filming place last. Do not classify international productions as Hong Kong films.",
+  "films": [
+    {
+      "film_id": "film-lucky-guy-1998",
+      "context": "A Stephen Chow ensemble comedy built around the fortunes of a neighbourhood café. Rather than using the cha chaan teng as scenery, the film makes its workers, customers and everyday rituals the engine of its humour and romance.",
+      "source_label": "CMGO film catalogue",
+      "source_url": "https://cmgo.com/web/en-US/m/movie/cmgo730_The-Lucky-Guy"
+    },
+    {
+      "film_id": "film-push-2009",
+      "context": "This American superhero thriller is not a Hong Kong film-industry landmark. Its story of gifted fugitives resisting a secret agency uses Hong Kong as an international action setting—a useful contrast with the locally made films elsewhere on the route.",
+      "source_label": "Icon Film Distribution",
+      "source_url": "https://iconfilmdistribution.co.uk/our-films/push"
+    },
+    {
+      "film_id": "film-as-tears-go-by-1988",
+      "context": "Wong Kar-wai's feature debut begins within the familiar 1980s Hong Kong triad film, but its wounded romance and restless mood already point towards his later cinema. It is an early example of his shift from genre mechanics towards feeling and atmosphere.",
+      "source_label": "BFI: Wong Kar-wai's early films",
+      "source_url": "https://www.bfi.org.uk/features/where-begin-with-wong-kar-wai"
+    },
+    {
+      "film_id": "film-world-suzie-wong-1960",
+      "context": "A British production starring Nancy Kwan and William Holden, this romance helped circulate an overseas image of Hong Kong. Its picture of the city is shaped by an outsider's gaze, so these frames invite comparison rather than standing in for a local cinematic voice.",
+      "source_label": "BFI film record and context",
+      "source_url": "https://www.bfi.org.uk/lists/10-great-films-about-chinese-people-uk"
+    },
+    {
+      "film_id": "film-cest-la-vie-1993",
+      "context": "Derek Yee's 1993 romance centres on a musician and a singer, showing how intimate melodrama could stand alongside Hong Kong cinema's more famous action films. It won six Hong Kong Film Awards, including Best Film and Best Director.",
+      "source_label": "HKIFF Cine Fan",
+      "source_url": "https://cinefan.hkiff.org.hk/movie/cest-la-vie-mon-cheri"
+    },
+    {
+      "film_id": "film-election-2005",
+      "context": "Johnnie To's crime drama turns a triad leadership contest into a study of ritual, coercion and political power. Its underworld story has also been read as an allegory of Hong Kong's changing identity after 1997.",
+      "source_label": "BFI: Where to begin with Johnnie To",
+      "source_url": "https://www.bfi.org.uk/features/where-begin-with-johnnie-to"
+    },
+    {
+      "film_id": "film-breaking-news-2004",
+      "context": "Johnnie To's police thriller makes the battle to control an image as important as the battle to catch suspects. Its extended opening gunfight and later televised siege turn action cinema into a sharp account of media spectacle.",
+      "source_label": "BFI: Where to begin with Johnnie To",
+      "source_url": "https://www.bfi.org.uk/features/where-begin-with-johnnie-to"
+    },
+    {
+      "film_id": "film-chungking-express-1994",
+      "context": "Wong Kar-wai's two-part story of lovelorn police officers became an international breakthrough for his cinema. Fragmented storytelling, kinetic city images and small rituals of longing make it a defining screen portrait of 1990s Hong Kong.",
+      "source_label": "BFI: Where to begin with Wong Kar-wai",
+      "source_url": "https://www.bfi.org.uk/features/where-begin-with-wong-kar-wai"
+    },
+    {
+      "film_id": "film-daddy-cool-2009",
+      "context": "This Malayalam-language film belongs to Indian cinema, not the Hong Kong film industry. A song sequence shot in Hong Kong shows another way the city travels across national screens: as a spectacular setting for music and performance.",
+      "source_label": "Filmibeat production report",
+      "source_url": "https://www.filmibeat.com/malayalam/news/2009/daddy-cool-release-040809.html"
+    },
+    {
+      "film_id": "film-comrades-1996",
+      "context": "Peter Chan's romance follows two mainland migrants from Hong Kong towards New York. The Hong Kong Film Archive places diaspora, displacement and identity at the heart of the film, making its brief encounters part of a larger story of movement and belonging.",
+      "source_label": "Hong Kong Film Archive",
+      "source_url": "https://www.filmarchive.gov.hk/en/web/hkfa/2026/peter-ho-sun-chan/pe-event-2026-peter-ho-sun-chan-fs-film01.html"
+    },
+    {
+      "film_id": "film-cold-war-2012",
+      "context": "This 2012 police thriller updates Hong Kong's crime-film tradition with a struggle inside the force itself. Its nine Hong Kong Film Awards, including Best Film, mark the film's major contemporary reception.",
+      "source_label": "Film at Lincoln Center",
+      "source_url": "https://www.filmlinc.org/films/cold-war/"
+    },
+    {
+      "film_id": "film-better-tomorrow-1986",
+      "context": "John Woo's breakthrough made heroic bloodshed a defining language of Hong Kong action cinema: stylised gunplay carries a melodrama about loyalty, betrayal and brotherhood. A quieter moment with Mark matters because it gives that larger-than-life figure a human scale.",
+      "source_label": "BFI: A century of Chinese cinema",
+      "source_url": "https://www.bfi.org.uk/features/century-chinese-cinema-introduction"
+    },
+    {
+      "film_id": "film-king-comedy-1999",
+      "context": "Stephen Chow's comedy turns towards the film industry itself through an aspiring actor who refuses to stop practising his craft. Its mix of absurdity and self-reflection gives the familiar Chow underdog a more openly vulnerable role.",
+      "source_label": "Hong Kong Film Archive: Stephen Chow",
+      "source_url": "https://www.filmarchive.gov.hk/documents/6.-Research-and-Publication/06-02-Filmmakers-Search/English/Stephen-CHOW_e.pdf"
+    },
+    {
+      "film_id": "film-infernal-affairs-iii-2003",
+      "context": "The final part of the Infernal Affairs trilogy turns the undercover thriller inward. By moving across time, memories and hallucinations, it makes a criminal's fractured identity—not just the chase—the heart of the story.",
+      "source_label": "Janus Films",
+      "source_url": "https://www.janusfilms.com/films/2087"
+    }
+  ]
+}

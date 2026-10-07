@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-label="Original vector landscape of an imagined Hong Kong where ink mountains, Chinese roofs and industrial towers meet">
+  <defs>
+    <linearGradient id="night" x2="0" y2="1"><stop stop-color="#161329"/><stop offset=".42" stop-color="#314761"/><stop offset="1" stop-color="#346f73"/></linearGradient>
+    <radialGradient id="dusk"><stop stop-color="#e66c8c" stop-opacity=".87"/><stop offset=".53" stop-color="#c45c78" stop-opacity=".5"/><stop offset="1" stop-color="#bd4771" stop-opacity="0"/></radialGradient>
+    <radialGradient id="moon"><stop stop-color="#e8ffff"/><stop offset=".4" stop-color="#bde9e2"/><stop offset="1" stop-color="#6edbd8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="mist" x2="0" y2="1"><stop stop-color="#d9f2df" stop-opacity="0"/><stop offset="1" stop-color="#f4e6dc" stop-opacity=".67"/></linearGradient>
+    <pattern id="windows" width="34" height="40" patternUnits="userSpaceOnUse"><path d="M7 8h6v12H7m16-12h6v12h-6" fill="#ffbf9e" opacity=".56"/></pattern>
+    <pattern id="roof" width="24" height="15" patternUnits="userSpaceOnUse"><path d="M0 11q12-12 24 0" fill="none" stroke="#d5999d" stroke-width="1.6" opacity=".65"/></pattern>
+  </defs>
+  <rect width="1440" height="900" fill="url(#night)"/>
+  <ellipse cx="1095" cy="236" rx="440" ry="350" fill="url(#dusk)"/>
+  <circle cx="1030" cy="176" r="230" fill="url(#moon)" opacity=".63"/>
+  <circle cx="1030" cy="176" r="90" fill="#e7fbef" opacity=".94"/>
+  <circle cx="1030" cy="176" r="112" fill="none" stroke="#a5e7e9" stroke-width="2" opacity=".56"/>
+  <path d="M0 487q76-69 140-24 90-177 160-89 82-152 162-28 108-149 177-31 110-116 207 20 103-99 178 2 142-165 242-15 97-54 174 41v537H0z" fill="#193447" opacity=".91"/>
+  <path d="M0 516q92-109 167-32 108-193 179-69 70-105 137-31 91-95 173 51 92-77 163-28 97-130 178-27 103-98 186 30 122-105 257 36v454H0z" fill="#23616b" opacity=".83"/>
+  <path d="M0 551q152-43 285-13 135-69 241-7 109-45 211 8 164-68 283-8 172-59 420 22v347H0z" fill="#347d7e" opacity=".82"/>
+  <g fill="#1b2e3d" stroke="#6ba5a2" stroke-width="2">
+    <path d="M0 495h85V293h90v202h57V250h69v245h63V155h97v340h80V300h82v195h68V237h74v258h675v230H0z"/>
+    <path d="M62 304h137m11-48h119m37-70h128m171 53h111" fill="none" stroke="#dfa698" stroke-width="7" opacity=".67"/>
+  </g>
+  <path d="M0 474h1440v234H0z" fill="url(#windows)" opacity=".72"/>
+  <g fill="none" stroke="#a3c3bd" stroke-width="3" opacity=".6">
+    <path d="M0 253q450 44 930 19 287-18 510 12M0 279q450 44 930 19 287-18 510 12"/>
+    <path d="M139 201v352m319-392v388m552-315v314m240-310v325"/>
+  </g>
+  <g stroke="#d5a294" stroke-width="3" fill="#1b3542">
+    <path d="M753 600h181v106H753zM955 610h207v95H955z"/>
+    <path d="M723 600q49-9 66-33 45 29 113 1 17 24 59 32zM927 610q34-10 57-30 75 33 143-1 27 26 66 31z" fill="#2d6270"/>
+    <path d="M832 582v-31l25-26 25 26v31" fill="#335d65"/>
+    <path d="M775 630h22v55h-22zm46 0h22v55h-22zm46 0h22v55h-22zm135 7h24v53h-24zm47 0h24v53h-24zm47 0h24v53h-24z" fill="#f2b9a4"/>
+  </g>
+  <path d="M740 609h465v114H740z" fill="url(#roof)" opacity=".55"/>
+  <g fill="#182e3a" stroke="#dea895" stroke-width="4">
+    <path d="M60 647h222v113H60z"/>
+    <path d="M28 648q47-12 65-34 73 20 133 0 45 25 90 34z" fill="#2d626d"/>
+    <path d="M96 673h24v62H96zm53 0h24v62h-24zm53 0h24v62h-24z" fill="#f5c0a8"/>
+  </g>
+  <g stroke="#c98780" stroke-width="9" fill="none" opacity=".72"><path d="M0 714h1440M0 734h1440M140 714V593m164 121V600m160 114V601m160 113V596m160 118V600m160 114V599m160 115V594m160 120V602"/></g>
+  <path d="M0 759q175-47 391 4 219 62 445-6 256-68 604 8v135H0z" fill="#162d3b"/>
+  <path d="M0 766q208-27 400 27 186 37 442-19 241-48 598 13" fill="none" stroke="#8dd5cf" stroke-width="4" opacity=".55"/>
+  <path d="M0 663q230 65 409 3 194-31 362 8 234-55 669-8v234H0z" fill="url(#mist)"/>
+</svg>

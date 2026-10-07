@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "provider": "Google Maps Street View",
+    "record_count": 19,
+    "checked_date": "2026-09-21",
+    "embed_api": "https://www.google.com/maps/embed/v1/streetview",
+    "maps_url_api": "https://www.google.com/maps/@?api=1&map_action=pano",
+    "implementation_note": "Interactive embeds require a restricted Google Maps Embed API key. Viewpoints and points of view are working alignments derived from the documented camera direction; Street View may snap to the nearest available panorama and must be checked against the cited film frame."
+  },
+  "records": [
+    {
+      "location_id": "v2-01-jackson-road",
+      "viewpoint": { "latitude": 22.2816319, "longitude": 114.1605753 },
+      "pov": { "heading": 180, "pitch": 0, "fov": 72 },
+      "alignment_basis": "Face south along Jackson Road with the former Supreme Court colonnade at frame right.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-02-duddell-street",
+      "viewpoint": { "latitude": 22.2796844, "longitude": 114.1568073 },
+      "pov": { "heading": 235, "pitch": 8, "fov": 68 },
+      "alignment_basis": "Look uphill from the Ice House Street landing toward the steps and gas lamps.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-03-midnight-express",
+      "viewpoint": { "latitude": 22.280897, "longitude": 114.1557202 },
+      "pov": { "heading": 300, "pitch": 0, "fov": 70 },
+      "alignment_basis": "Face the former 3 Lan Kwai Fong takeaway-counter site from street level.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-04-pottinger-street",
+      "viewpoint": { "latitude": 22.283349, "longitude": 114.1559584 },
+      "pov": { "heading": 180, "pitch": 5, "fov": 72 },
+      "alignment_basis": "Look south and uphill along the stone steps.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-05-graham-market",
+      "viewpoint": { "latitude": 22.2832918, "longitude": 114.1535524 },
+      "pov": { "heading": 5, "pitch": 0, "fov": 78 },
+      "alignment_basis": "Look from Gage Street into the Graham Street market passage.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-06-escalator",
+      "viewpoint": { "latitude": 22.283918, "longitude": 114.154968 },
+      "pov": { "heading": 92, "pitch": 3, "fov": 74 },
+      "alignment_basis": "Face across the glazed escalator span near Cochrane Street and Hollywood Road.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-07-central-pier-7",
+      "viewpoint": { "latitude": 22.2870742, "longitude": 114.1612046 },
+      "pov": { "heading": 0, "pitch": 0, "fov": 78 },
+      "alignment_basis": "Face the Pier 7 entrance head-on from the public forecourt.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-08-avenue-of-stars",
+      "viewpoint": { "latitude": 22.2941468, "longitude": 114.1757887 },
+      "pov": { "heading": 270, "pitch": 0, "fov": 82 },
+      "alignment_basis": "Look west along the promenade with Victoria Harbour at frame right.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-09-middle-road-ymca",
+      "viewpoint": { "latitude": 22.29487, "longitude": 114.1710258 },
+      "pov": { "heading": 0, "pitch": 0, "fov": 72 },
+      "alignment_basis": "Face north from the Middle Road curb toward The Salisbury–YMCA.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-10-chungking-mansions",
+      "viewpoint": { "latitude": 22.2963741, "longitude": 114.1728447 },
+      "pov": { "heading": 90, "pitch": 0, "fov": 68 },
+      "alignment_basis": "Face the Chungking Mansions entrance head-on from the Nathan Road pavement.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-11-canton-road",
+      "viewpoint": { "latitude": 22.2970015, "longitude": 114.1684199 },
+      "pov": { "heading": 0, "pitch": 0, "fov": 80 },
+      "alignment_basis": "Look north along Canton Road parallel to the Harbour City frontage.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-12-man-wah-sun-chuen",
+      "viewpoint": { "latitude": 22.3081134, "longitude": 114.1660004 },
+      "pov": { "heading": 90, "pitch": 2, "fov": 82 },
+      "alignment_basis": "Face east from Ferry Street toward the estate blocks and stepped roofline.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-13-old-ymt-police",
+      "viewpoint": { "latitude": 22.309532, "longitude": 114.1685433 },
+      "pov": { "heading": 90, "pitch": 0, "fov": 66 },
+      "alignment_basis": "Face the former police-station entrance squarely from Canton Road.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-14-former-carpark-temple-street",
+      "viewpoint": { "latitude": 22.30923, "longitude": 114.17018 },
+      "pov": { "heading": 270, "pitch": 0, "fov": 82 },
+      "alignment_basis": "Look across the night-market edge toward the former car-park footprint.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-15-tin-hau-temple",
+      "viewpoint": { "latitude": 22.3099104, "longitude": 114.1706939 },
+      "pov": { "heading": 0, "pitch": 0, "fov": 78 },
+      "alignment_basis": "Look north through Yung Shue Tau toward the Tin Hau Temple square.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-16-fruit-market",
+      "viewpoint": { "latitude": 22.3121981, "longitude": 114.1683031 },
+      "pov": { "heading": 90, "pitch": 0, "fov": 80 },
+      "alignment_basis": "Look from the Waterloo Road–Reclamation Street corner into the market loading edge.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-17-reclamation-soy",
+      "viewpoint": { "latitude": 22.315661, "longitude": 114.168513 },
+      "pov": { "heading": 90, "pitch": 0, "fov": 72 },
+      "alignment_basis": "Face the 331 Reclamation Street façade and angle toward the Soy Street junction.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v2-18-hung-wan-cafe",
+      "viewpoint": { "latitude": 22.3226084285714, "longitude": 114.167520242857 },
+      "pov": { "heading": 270, "pitch": 0, "fov": 66 },
+      "alignment_basis": "Face the 726 Shanghai Street shopfront squarely from across the pavement.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    },
+    {
+      "location_id": "v3-19-mido-cafe",
+      "viewpoint": { "latitude": 22.31023, "longitude": 114.17037 },
+      "pov": { "heading": 45, "pitch": 1, "fov": 70 },
+      "alignment_basis": "Face the curved Mido Cafe corner from the Tin Hau Temple and Public Square Street side.",
+      "alignment_status": "working_alignment_needs_frame_check"
+    }
+  ]
+}

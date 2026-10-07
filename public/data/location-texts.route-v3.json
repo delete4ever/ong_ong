@@ -1,0 +1,547 @@
+{
+  "schema_version": "3.0.0",
+  "project": {
+    "project_id": "hong-kong-through-film-text-matrix-v3",
+    "content_language": "en",
+    "location_count": 19,
+    "narrative_count": 2,
+    "variants_per_location": 4,
+    "text_count": 76,
+    "editorial_status": "evidence_aligned_draft",
+    "last_updated": "2026-09-11",
+    "editorial_note": "Every location has one brief and one extended text for each narrative. Extended texts inherit the evidence links and access qualifications from the matching location record; interpretive language is kept distinct from verified film and place facts."
+  },
+  "variants": [
+    {
+      "variant_id": "visitor-brief",
+      "label": "Quick view",
+      "detail_level": "brief",
+      "competence": "introductory",
+      "tone": "general_visitor",
+      "target_length": "2–3 lines"
+    },
+    {
+      "variant_id": "research-extended",
+      "label": "Research view",
+      "detail_level": "extended",
+      "competence": "advanced",
+      "tone": "research_reader",
+      "target_length": "10–15 lines plus inherited location references"
+    }
+  ],
+  "locations": [
+    {
+      "location_id": "v2-01-jackson-road",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "A Street Meal Beneath the Monuments",
+            "body": "In A Better Tomorrow, Mark eats rice rolls beside Jackson Road. The small, exposed gesture places personal vulnerability against Central's ceremonial buildings and the confidence of 1980s Hong Kong."
+          },
+          "research-extended": {
+            "title": "Heroic Cinema at Ground Level",
+            "body": "Released in 1986, A Better Tomorrow helped define the emotional scale of Hong Kong heroic-bloodshed cinema. This scene works differently from the film's gunfights: Mark is seated at street level, eating an inexpensive snack near the Cenotaph and the formal architecture of Central. The contrast makes power visible through space. Monumental stone, finance-district traffic, and a temporary food stall surround a character whose status has become fragile. The road and monument remain, but the stall that gave the scene its everyday texture has disappeared. The site therefore asks visitors to reconstruct a relationship rather than locate an intact set: public dignity above, improvised survival below. That contrast is an editorial reading grounded in the verified location and scene, not a claim that the architecture carries one fixed symbolic meaning."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Rice Rolls, Pride, and Public Space",
+            "body": "Mark's rice rolls are more than a snack. Eating beside the road turns food into a measure of changed fortune, while the vanished stall reminds us that everyday food culture can disappear faster than monuments."
+          },
+          "research-extended": {
+            "title": "The Most Modest Table on the Route",
+            "body": "The trail begins without a dining room. Mark eats rice rolls at the edge of Jackson Road, using the street as table and the financial district as backdrop. Food makes the character's circumstances immediately legible: the meal is quick, affordable, public, and far removed from the polished interiors nearby. The scene also reveals why food-location research cannot focus only on surviving restaurants. The Cenotaph and road can still be visited, yet the vendor has gone, so the edible part of the location survives through film memory rather than continuous business history. Visitors should observe the scale of the pavement, traffic, and monuments instead of searching for a replica stall. This stop introduces the route's central question: when a meal is temporary but its image endures, where does the food heritage actually reside?"
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-02-duddell-street",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "A Preserved Stage for Popular Comedy",
+            "body": "By 1999, Duddell Street's granite steps and gas lamps already carried the atmosphere of an older Central. King of Comedy uses that preserved streetscape as a dramatic entrance inside a contemporary popular film."
+          },
+          "research-extended": {
+            "title": "Old Infrastructure, New Performance",
+            "body": "King of Comedy arrives at the end of the 1990s, but Lau Piu-piu's entrance is framed by one of Central's most carefully preserved urban fragments. The granite steps and gas lamps do not simply provide a picturesque background; their strong vertical axis and pools of light make the street behave like a theatre. This pairing is useful for the historical narrative because it shows popular cinema reactivating inherited infrastructure rather than treating heritage as static display. The steps remain publicly accessible and the monument has been restored, although present conditions should still be compared with the film frame. Visitors can read the climb, landing, and lamps as a sequence of entrances. The interpretation concerns cinematic staging; it does not imply that the location's heritage value originates with the film."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "A Useful Counterpoint, Not a Food Scene",
+            "body": "No verified meal anchors this King of Comedy location. Its polished heritage atmosphere offers a counterpoint to the temporary stalls, markets, and working cafés that carry the food route."
+          },
+          "research-extended": {
+            "title": "What the Food Trail Leaves Out",
+            "body": "Duddell Street is deliberately excluded from the ten-stop food route because the selected film scene is not organised around eating, cooking, or food work. That absence is still analytically useful. Here, preservation is concentrated in durable materials—granite, iron, masonry, and restored lamps—while several food stops depend on vendors, leases, recipes, and daily labour that are much easier to displace. The location therefore acts as a counterpoint within the wider collection. It helps explain why a film-food trail cannot be built by attaching nearby restaurant recommendations to every cinematic landmark. Doing so would blur evidence and turn geography into a false thematic claim. If used as an optional detour, Duddell Street should be presented as a comparison in urban memory, not as a meal location from King of Comedy."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-03-midnight-express",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "1994 at the Takeaway Counter",
+            "body": "Chungking Express makes a small Central food stall the emotional centre of its second story. Its altered site shows how cinema can preserve an everyday place after the original business and street edge have changed."
+          },
+          "research-extended": {
+            "title": "An Everyday Interior Becomes Film Memory",
+            "body": "The former Midnight Express site represents a decisive 1994 turn toward intimate, everyday urban space. Cop 663 and Faye repeatedly meet across a takeaway counter, allowing routine service exchanges to carry the film's romance, hesitation, and repetition. The location is important not because it is monumental, but because the camera gives narrative weight to a compact workplace embedded in Central's circulation. Much of the original shop and architectural context has changed, so the stop must be read through alignment rather than nostalgia alone: where was the counter, how did customers approach, and what movement passed around it? The site demonstrates that cinematic heritage may survive as a remembered spatial relation after its physical container disappears. Final publication should still match a film frame and timecode before presenting an exact camera position."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Service Work as a Love Language",
+            "body": "At Midnight Express, ordering and preparing food become a rhythm of recognition. The original counter is gone, but the scene still turns takeaway service into one of Hong Kong cinema's most memorable forms of intimacy."
+          },
+          "research-extended": {
+            "title": "The Counter Between Worker and Customer",
+            "body": "Midnight Express contributes a different kind of food scene from a restaurant meal. The takeaway counter structures brief encounters: one person serves, another waits, music and traffic leak into the exchange, and repetition gradually becomes emotional knowledge. Food is therefore both product and social choreography. Because the original stall has vanished, the present stop should not promise visitors a preserved Chungking Express interior. Instead, it can direct attention to the scale of the street, the compressed service threshold, and the speed at which Central's workers and customers move. This distinction protects the site's credibility while strengthening the narrative. The food trail is not a list of places to recreate an order; it is a study of how selling, waiting, and returning can turn ordinary service work into cinematic intimacy."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-04-pottinger-street",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "Crime Cinema on a Colonial Street",
+            "body": "Infernal Affairs III places a modern phone conversation and an ordinary apple on Pottinger Street's historic stone steps. The combination compresses different periods of Central into one moving shot."
+          },
+          "research-extended": {
+            "title": "A Layered Street in the Early 2000s",
+            "body": "Although it is not one of the fifteen selected film-history stops, Pottinger Street adds a useful 2003 layer to the shared collection. Infernal Affairs III sets contemporary crime-drama behaviour—walking, eating, and speaking by phone—against a recognisable nineteenth-century street form. The steps are neither a sealed heritage object nor a neutral shortcut; they remain part of Central's daily movement and commercial edge. The scene lets old material fabric and newer communication technology occupy the same frame without requiring an explicit historical speech. City in Time pairs the film frame with a description of Chan eating an apple while walking and speaking to his boss, so the film–street relationship is now locked. Fieldwork is still useful for camera direction and present-day comparison, but it is no longer needed to establish the location claim."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "An Apple in Motion",
+            "body": "This is food as prop rather than meal. Tony Leung's character eats an apple while climbing, talking, and thinking, making consumption part of his controlled public performance."
+          },
+          "research-extended": {
+            "title": "Eating Without Stopping",
+            "body": "Pottinger Street broadens the food trail beyond restaurants and markets. The apple in Infernal Affairs III is portable, ordinary, and consumed while the character continues to walk and speak on the phone. Eating does not interrupt the city; it is folded into movement, concentration, and screen persona. The steep stone steps intensify that effect because the body must negotiate slope, pedestrians, and objects at the same time. This stop therefore treats food as a cinematic tool: a small action that gives rhythm to dialogue and makes a controlled character briefly physical. Visitors should not expect a food business connected to the film. The evidence rests on the prop and the street action, while any present-day stalls nearby belong to current context rather than the verified scene."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-05-graham-market",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "The Market as Moving Image",
+            "body": "In Chungking Express, Faye passes through Graham Street Market as colour, awnings, produce, and narrow lanes flow around her. The scene records working Central rather than a postcard landmark."
+          },
+          "research-extended": {
+            "title": "Everyday Central in 1994",
+            "body": "Graham Street Market is an optional 1994 counterpoint to the film's better-known interiors. Faye's movement through produce stalls turns errands and pedestrian negotiation into the visual language of Chungking Express. The market gives the film density without requiring spectacle: hanging goods, improvised coverings, close shopfronts, and changing light create a city assembled through daily work. Redevelopment has altered individual stalls and building outlines, while market activity continues. That mixed condition matters historically. The site is neither completely lost nor unchanged, so comparison should identify surviving patterns as well as discontinuities. In the broader timeline, it shows how 1990s cinema could make ordinary commercial infrastructure expressive. Any precise before-and-after claim should still be tied to a matched frame rather than assumed from the general street address."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Behind Every Takeaway Counter",
+            "body": "Graham Street Market expands the story from one prepared snack to the produce and vendors that feed Central. Food appears here as circulation, labour, colour, and everyday supply."
+          },
+          "research-extended": {
+            "title": "From Screen Meal to Supply System",
+            "body": "The trail moves from Midnight Express to Graham Street Market to reveal what a finished takeaway meal usually hides. Produce must be unloaded, displayed, selected, carried, and sold before it reaches a kitchen or counter. Chungking Express captures Faye within that active system rather than isolating food as decoration. For visitors, the market should be approached as a workplace: keep paths clear, avoid photographing people at close range without consent, and do not treat vendors as scenery. Redevelopment has changed parts of the built setting, so the current visit combines continuity of trade with altered urban form. Editorially, this stop prevents the route from becoming a sequence of famous dishes. It places procurement and labour inside cinematic food culture and asks who keeps Central supplied while the city moves around them."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-06-escalator",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "A City Seen While Moving",
+            "body": "Chungking Express turns the Central–Mid-Levels Escalator into both transport and viewpoint. Faye's passing glance makes new urban infrastructure part of a relationship built through distance and observation."
+          },
+          "research-extended": {
+            "title": "Infrastructure Enters the Romance",
+            "body": "The escalator offers another way to understand Hong Kong cinema in 1994. Rather than holding the camera before a stable façade, Chungking Express incorporates mechanical movement, elevated sightlines, and partial views into the relationship between Faye and Cop 663. The infrastructure carries a character through space while also allowing her to look toward a private interior. Public transport, spectatorship, and desire briefly overlap. Several sections of the system have since been renewed, but its role as a moving route through Central remains legible. This location is not included in the fifteen-stop chronology because the 1994 chapter already has two stronger anchors; it remains valuable as an optional comparison. A frame check should determine the exact segment and viewing direction before the site presents a definitive reproduction point."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "The Network Around the Meal",
+            "body": "The escalator scene is not about eating. As an optional food-route lens, it reveals the transport network that connects Central's markets, kitchens, workers, customers, and deliveries."
+          },
+          "research-extended": {
+            "title": "Circulation Without a Food Claim",
+            "body": "No verified food action defines this Chungking Express location, so the escalator is excluded from the main food sequence. Its relevance is infrastructural rather than culinary. Dense food districts depend on people and goods moving across steep terrain, and the escalator makes that circulation unusually visible. It links residential levels, commercial streets, market areas, and service work while changing the speed and angle from which the city is seen. Used as an optional layer, the stop can help visitors think about the network around a meal rather than inventing a connection to a particular dish. The website should keep that distinction explicit: the cinematic evidence concerns Faye's movement and gaze; the food interpretation concerns the wider urban system. Nearby cafés may be useful in practice, but they are not evidence about the selected scene."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-07-central-pier-7",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "The Harbour as Security Network",
+            "body": "Cold War uses Pier 7 and its interchange as part of a 2012 ransom and pursuit system. The harbour crossing becomes infrastructure under pressure rather than a scenic pause."
+          },
+          "research-extended": {
+            "title": "A Transport Node in the Networked Metropolis",
+            "body": "Cold War adds a 2012 layer of systems and control to the historical narrative. Central Star Ferry Pier 7 and the surrounding interchange support a ransom-and-pursuit narrative in which timing, movement, surveillance, and public infrastructure are tightly connected. The location's ordinary transport function gives the sequence credibility: commuters and vehicles continue to move through a space temporarily reimagined as a security problem. The pier remains operational, allowing visitors to experience the same basic relation between terminal, waterfront, and cross-harbour travel. Yet a working interchange is not a film set, so observation must not obstruct passengers. Historically, the stop shows contemporary crime cinema reading Hong Kong as a coordinated network whose vulnerabilities emerge precisely because so many systems meet in one place."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "Crossing Between Food Worlds",
+            "body": "Pier 7 contains no verified food scene from Cold War. For the food project, its value is transitional: the ferry connects Central's counters and markets with Kowloon's cafés, estates, and night streets."
+          },
+          "research-extended": {
+            "title": "Transport as the Route's Missing Ingredient",
+            "body": "The food trail does not count Pier 7 as one of its ten stops, but it depends on the harbour crossing that the pier enables. This is an important editorial distinction. The selected Cold War scene concerns transport and pursuit, not eating, while the visit uses that same infrastructure to connect two clusters of food-related film locations. Ferry travel also encourages portable routines—carrying purchases, meeting after work, or eating before and after a crossing—without proving a specific screen meal here. The pier can therefore appear as a route transition rather than a culinary destination. That role keeps the map honest and makes mobility visible. Hong Kong's film-food geography is not contained inside restaurants; it is produced by the systems that allow ingredients, workers, customers, and stories to cross the city."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-08-avenue-of-stars",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "The Harbourfront Becomes a Stage",
+            "body": "Daddy Cool turns the old Avenue of Stars into a musical performance space. The frame preserves a pre-renovation promenade where bodies, railing, skyline, and harbour are choreographed together."
+          },
+          "research-extended": {
+            "title": "Waterfront Spectacle Before Renovation",
+            "body": "Daddy Cool uses the old Avenue of Stars for a musical set piece, turning the harbourfront into a stage rather than a neutral postcard. The source frames tie performers to the promenade's former railing, paving, and skyline relationship, giving this stop an exact visual basis. The present Avenue of Stars is renovated, so the visitor encounters continuity in the harbour view but change in the designed foreground. That difference is analytically useful: the film records one phase of a public site already dedicated to screen culture, while the current promenade offers a later and more polished version of the same commemorative idea. This 2009 stop therefore connects location shooting, tourism, and the institutional display of cinema. It should be presented as a then-and-now comparison, not as a promise that every foreground feature survives."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "Spectacle Rather Than Sustenance",
+            "body": "The Avenue of Stars is excluded from the food route: its verified Daddy Cool sequence concerns musical spectacle, not a meal. It remains a useful contrast to places sustained by cooking, selling, and serving."
+          },
+          "research-extended": {
+            "title": "Tourist Consumption and Everyday Food Labour",
+            "body": "This waterfront location offers a broader meaning of consumption—images, views, souvenirs, music, and film celebrity—but no verified food scene in the selected Daddy Cool material. Including it as a principal food stop would weaken the route's evidence. As an optional comparison, however, it clarifies a tension between curated cultural spectacle and the working food environments elsewhere in the collection. The promenade is designed for looking and commemorating; markets and cafés must also purchase stock, manage rent, serve customers, and adapt to changing ownership. Both shape how visitors experience Hong Kong, but they preserve memory through different institutions. The food trail therefore passes through Tsim Sha Tsui without counting this as a stop. Its attention remains with the people and systems that make edible culture, not only with the waterfront image through which cinema is displayed."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-09-middle-road-ymca",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Migration Framed by an Ordinary Road",
+            "body": "Comrades, Almost a Love Story anchors romance and migration in a modest Tsim Sha Tsui roadside encounter. The everyday edge opposite the YMCA carries memory without becoming a grand landmark."
+          },
+          "research-extended": {
+            "title": "The Emotional Geography of Arrival",
+            "body": "Released in 1996, Comrades, Almost a Love Story follows people learning to live, work, and form attachments in Hong Kong. The Middle Road location is valuable because it does not announce itself as heritage. A roadside opposite the Salisbury YMCA becomes an anchor in the film's emotional geography, allowing traffic, waiting, and ordinary frontage to support a story shaped by migration. The road geometry and hotel remain, while traffic furniture and façades have changed. Visitors should therefore compare spatial relations rather than expect a frozen image. Within the timeline, the stop shows 1990s cinema making memory from repeated everyday movement. It also resists the idea that meaningful film locations must be visually spectacular: sometimes continuity lies in the distance between pavement, road, and building rather than in a single preserved object."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "Migration Beyond the Menu",
+            "body": "This selected roadside scene is not a food scene. Its link to the wider food narrative is social: migrant lives and service economies shape what a city eats, even when no meal appears in the frame."
+          },
+          "research-extended": {
+            "title": "Context Without Inventing a Meal",
+            "body": "Food histories often intersect with migration, but that broad truth does not turn every migration scene into culinary evidence. The selected Middle Road encounter in Comrades, Almost a Love Story is organised around movement, work, and relationship rather than a verified meal. For that reason, the location remains outside the ten-stop food trail. It can still serve as an optional contextual note: newcomers help shape retail and service economies, and Tsim Sha Tsui's everyday streets connect lodging, employment, transport, and dining. The distinction between context and scene is essential to the text matrix. Visitors should not be told that characters ate here unless the film supports it. Instead, the site can open a careful question about whose movement and labour make an urban food culture possible, while leaving the specific answer to better-evidenced food locations."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-10-chungking-mansions",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "A Global Maze in 1994",
+            "body": "Chungking Express opens inside the dense passages of Chungking Mansions. In the same year as the intimate takeaway story, the film also presents Hong Kong as fast, multilingual, commercial, and globally connected."
+          },
+          "research-extended": {
+            "title": "The Other Scale of Chungking Express",
+            "body": "Chungking Mansions is the 1994 counterpoint to Midnight Express. One location compresses intimacy around a food counter; the other turns corridors, shops, guesthouses, and flows of strangers into a pursuit maze. The building's multicultural commercial networks give Chungking Express a Hong Kong that is local and transnational at once. It remains intensively occupied, so the film location is also a living environment rather than a freely available attraction. Visitors should stay in public commercial areas, respect photography restrictions, and avoid treating residents or workers as part of a recreated scene. Historically, the stop demonstrates how the same film can hold two urban scales together: the repeated personal encounter and the unstable global crowd. Exact internal shot positions still require careful frame matching and access-aware verification."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "A Film Maze, a Living Food World",
+            "body": "The chase scene is not a dining scene, but today's Chungking Mansions supports many transnational food businesses. The stop connects cinematic movement with the real food cultures created by migration and trade."
+          },
+          "research-extended": {
+            "title": "From Cinematic Labyrinth to Transnational Foodways",
+            "body": "Chungking Mansions enters the food trail through carefully labelled present-day context. The verified Chungking Express sequence uses its dense passages and commercial networks for pursuit; it does not justify claiming that a particular restaurant appears in the selected scene. The building's continuing concentration of businesses, lodging, residents, and international exchange nevertheless makes it a strong place to discuss transnational foodways. Menus, ingredients, languages, and customers show food culture being produced through migration rather than through a single nostalgic recipe. That living complexity requires respectful visiting: remain in public areas, ask before photographing people or premises, and do not reduce the building to an exotic backdrop. The stop expands the route from recognisably local snacks to the global connections already embedded in Hong Kong's everyday commercial life."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-11-canton-road",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "Romance in the Commercial Current",
+            "body": "The Canton Road cycling sequence places Comrades, Almost a Love Story inside Tsim Sha Tsui's commercial rhythm. Movement, traffic, and changing retail frontage make the city part of the relationship."
+          },
+          "research-extended": {
+            "title": "A 1996 Relationship in Motion",
+            "body": "Canton Road gives Comrades, Almost a Love Story a mobile rather than monumental geography. Cycling places the characters at a human speed between pedestrians, vehicles, shopfronts, and the commercial pulse of Tsim Sha Tsui. The corridor remains, but retail façades, crossings, and traffic conditions have changed, so the location is best understood as a route segment rather than one immutable object. It is excluded from the fifteen-stop history sequence to keep that itinerary achievable, yet it enriches the 1996 cluster in the shared collection. Compared with the stillness of Middle Road, Canton Road shows attachment developing through coordinated movement. A final frame and timecode check should isolate the relevant section before visitors are asked to reproduce the route, especially because contemporary traffic makes exact reenactment unsafe and unnecessary."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "A Street of Consumption, Not a Food Scene",
+            "body": "Canton Road is strongly associated with retail consumption, but the selected cycling sequence contains no verified meal. It stays outside the food route to keep shopping context separate from food evidence."
+          },
+          "research-extended": {
+            "title": "Why Retail Proximity Is Not Enough",
+            "body": "A dense commercial street can contain many dining options without becoming a valid film-food location. In Comrades, Almost a Love Story, the selected Canton Road sequence is anchored by cycling and urban movement, not cooking, serving, or eating. The distinction prevents the website from converting every popular district into a restaurant guide. As an optional comparison, Canton Road can support discussion of consumption and changing retail identities: storefronts turn over, brands reshape the street, and visitors encounter the city partly through purchases. Those processes sit beside food culture but do not replace evidence about it. The ten-stop trail therefore uses better anchors—markets, counters, cafés, and a shared meal—while Canton Road remains in the broader film-location pool as a reminder that thematic selection requires exclusion as well as connection."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-12-man-wah-sun-chuen",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Housing Estate, Siege, Broadcast",
+            "body": "Breaking News turns Man Wah Sun Chuen into both a police siege and a media event. In 2004, residential circulation becomes part of a city increasingly understood through surveillance, images, and live public attention."
+          },
+          "research-extended": {
+            "title": "The Residential City Under Observation",
+            "body": "Man Wah Sun Chuen marks the historical narrative's move into the networked metropolis. Breaking News uses the estate's enclosed blocks, flats, stairs, and circulation spaces to sustain a prolonged confrontation, while the story turns police action into a battle over public images. Domestic architecture becomes inseparable from media strategy. The estate remains residential, so contemporary access must be more cautious than at a public monument: visitors should stay in public areas, keep noise low, and avoid photographing residents or windows. This ethical limit is part of the interpretation, not an inconvenience. The film converts housing into spectacle; the website should not repeat that conversion by treating everyday homes as an unrestricted set. Final research needs to distinguish publicly reachable filming anchors from interior or controlled spaces."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "A Meal Used as Media Strategy",
+            "body": "In Breaking News, fugitives cook and share food with their hostages, then turn the meal into a broadcast image. Hospitality becomes unexpectedly tactical inside a police siege."
+          },
+          "research-extended": {
+            "title": "Cooking Under Siege",
+            "body": "The meal in Breaking News unsettles the expected relationship between food and safety. Inside a violent standoff, fugitives cook for the people they hold and circulate the resulting image as part of a media strategy. Domestic hospitality is neither innocent nor simply comforting; it becomes a tool for reorganising public sympathy and controlling the story. Man Wah Sun Chuen gives that reversal its spatial force because an ordinary home and residential estate are drawn into a highly visible police operation. For the food trail, this is the clearest example of cooking as narrative action rather than background decoration. Yet the present site is still home to residents. Visitors should not seek interior access or reenact the scene. The ethical response is to discuss the film from public space and let the text carry what the building cannot safely display."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-13-old-ymt-police",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Triad Power at the Police Threshold",
+            "body": "Election shows Big D and Lok leaving Old Yau Ma Tei Police Station after detention. Formal authority frames, but does not settle, the film's struggle over informal power."
+          },
+          "research-extended": {
+            "title": "Triad Power Leaves the Police Station",
+            "body": "Election places Big D and Lok at the exit of Old Yau Ma Tei Police Station after detention. The exterior matters because it makes formal authority visible at the exact moment the characters return to a struggle that the institution cannot resolve for them. Culture Hulu supplies a captioned frame of the pair leaving the station, while the Hong Kong Tourism Board independently lists Election among productions filmed there. This replaces the former Infernal Affairs assignment, which HK01 identifies as a common misattribution. The correction sharpens the research argument: film heritage must be built from scene-specific evidence, not from repeated online associations. Today the former station is a managed exhibition site, so original production evidence, current interpretation, and visitor access should remain three separate layers in the interface."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "Control Outside the Food Story",
+            "body": "The selected Election scene concerns police authority, not food. As a counterpoint, the station helps distinguish regulated institutional space from the informal streets and businesses that feed the city."
+          },
+          "research-extended": {
+            "title": "Institutional Space Versus Informal Food Space",
+            "body": "The old police station is not included in the food trail because the verified Election scene does not centre on eating, cooking, or food work. Its value is comparative. Police architecture organises access, behaviour, and visibility through formal authority, while many food locations on the route operate through negotiated pavements, market routines, customer relationships, and changing leases. Setting these spatial systems beside one another can sharpen an argument about how the city is governed, but it should not be used to manufacture a culinary connection. The current ticketed exhibition also makes the building a managed visitor environment, unlike a market or residential estate. If the location appears as an optional nearby stop, the interface should label it as institutional context and keep film-heritage interpretation separate from the evidence supporting the food narrative."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-14-former-carpark-temple-street",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "A Film Location After Demolition",
+            "body": "C'est la vie, mon chéri ties neighbourhood life to Temple Street and a car park building that has since been demolished. The stop shows how cinematic memory can survive after a key structure disappears."
+          },
+          "research-extended": {
+            "title": "1993 Remembered Through an Urban Absence",
+            "body": "This stop makes physical change central to the historical route. In C'est la vie, mon chéri, Temple Street and the former Yau Ma Tei Car Park Building helped form the night-market neighbourhood around Min and Kit. Temple Street remains active, but the building at 250 Shanghai Street has been demolished. The visitor therefore encounters a split location: a continuing street culture beside a missing architectural anchor. That condition should be stated plainly rather than concealed with a pin that suggests everything survives. The value of the stop lies precisely in comparing film frame, present street, and urban absence. It also shows why location history cannot be reduced to architectural conservation. Sounds, businesses, crowds, and patterns of evening use may carry memory even when the structure that organised the original shot is gone."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Eating in Public After the Set Has Changed",
+            "body": "Temple Street connects film memory with night-market food, dai pai dong culture, and eating in public. The former car park is gone, so today's meal belongs to a living street—not a preserved set."
+          },
+          "research-extended": {
+            "title": "Street Food, Performance, and the Missing Building",
+            "body": "Temple Street places eating within a public performance of light, noise, trade, and sociability. The food connection is broader than one verified dish in C'est la vie, mon chéri: it comes from the night-market environment surrounding the film's neighbourhood world. Claypot rice and dai pai dong-style dining can help visitors experience that living context, but the website must not imply that a current business appeared in the 1993 film unless separately proven. The demolition of the former car park makes this caution especially important. Present-day Temple Street is neither an intact set nor a substitute structure; it is a continuing urban culture beside an absence. The stop asks how food practices can sustain place identity even as buildings and tenants change, and how a visitor can participate without confusing current commerce with production history."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-15-tin-hau-temple",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Yau Ma Tei in a 1960 Screen Image",
+            "body": "The World of Suzie Wong records Tin Hau Temple, Yung Shue Tau, and the Mido Cafe corner in one legible street environment. The frame begins the route's study of how cinema constructs Hong Kong from real urban fragments."
+          },
+          "research-extended": {
+            "title": "Yau Ma Tei in an International Screen Image",
+            "body": "The World of Suzie Wong uses the Tin Hau Temple frontage, Yung Shue Tau square, and curved Mido Cafe corner to assemble a legible image of Hong Kong in 1960. The selected frame shows the temple's long wall and green shutters beside a busy street market; another frame from the same sequence places Mido Cafe's curved upper façade in the background. These connected views help distinguish the real Yau Ma Tei location from the film's broader fictional geography. The present temple and square remain active civic and religious spaces, while the street foreground has changed substantially. Visitors can compare the surviving spatial relationships while respecting worshippers and community use."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "The Social Ground Beside the Food Street",
+            "body": "The verified 1960 temple scene is not an eating scene, so it sits outside the main food route. Its view toward Mido Cafe provides social and spatial context without proving a meal inside the café."
+          },
+          "research-extended": {
+            "title": "Public Gathering Before Culinary Consumption",
+            "body": "Yung Shue Tau helps explain why Temple Street food is social, but the selected World of Suzie Wong scene does not itself establish a meal. The site is therefore retained as contextual material rather than counted among the ten food stops. Its temple and public square support forms of gathering that precede or exceed commercial consumption: worship, conversation, performance, waiting, and neighbourhood recognition. The visible Mido Cafe corner connects this frame to a separately researched food landmark, yet exterior visibility must not be mistaken for proof that the café interior was used. Nearby night-market dining belongs to the same urban ecology, but proximity alone does not turn it into a film scene. This evidence boundary lets the project discuss the social ground of food culture without manufacturing a culinary event."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-16-fruit-market",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Nocturnal Kowloon Before the 1990s",
+            "body": "As Tears Go By places Wong Kar-wai's 1988 debut within the brick buildings and loading spaces of a working wholesale market. Kowloon appears through labour, night, and urban pressure."
+          },
+          "research-extended": {
+            "title": "A Working Market in Wong Kar-wai's First Feature",
+            "body": "The Yau Ma Tei Wholesale Fruit Market gives the 1988 chapter a distinctly working, nocturnal texture. In As Tears Go By, brick buildings, loading areas, vehicles, and compressed circulation support a story of loyalty and violence without becoming decorative heritage. The market remains active, especially before dawn, so continuity is found in function as well as form. That survival also creates an ethical and practical limit: visitors are entering a workplace with moving goods and vehicles, not a staged attraction. The historical value of the stop lies in seeing how Wong Kar-wai's first feature drew cinematic atmosphere from the city's labour infrastructure. Precise filming positions still require frame matching, and any field visit should take place at a safe time and distance rather than competing with wholesale operations."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "The Night Labour Behind the Table",
+            "body": "Before fruit reaches a café, stall, or home, it passes through a system of unloading, sorting, and resale. The market makes that usually invisible labour the subject of the food trail."
+          },
+          "research-extended": {
+            "title": "Food Before It Becomes a Dish",
+            "body": "The wholesale fruit market shifts attention from eating to distribution. Its work happens through crates, vehicles, negotiated space, rapid handling, and schedules that begin while much of the city sleeps. As Tears Go By uses this infrastructure for nocturnal atmosphere, but the food trail reads it as the supply chain behind more familiar screen meals. That interpretation does not turn workers into spectacle. Visitors should remain at safe public edges, avoid obstructing loading activity, and request permission before close photography. The site's continued operation is more important than reproducing a dramatic pose. By placing the market near the end of the route, the narrative looks backward: rice rolls, takeaway counters, apples, cafés, and night-market dishes all depend on systems of procurement and labour. Food cinema begins long before the plate enters the frame."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-17-reclamation-soy",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Mong Kok as Global Action Shorthand",
+            "body": "Push uses the dense signs and façades around Reclamation and Soy Streets to make 2009 Mong Kok instantly legible as an international action-film city."
+          },
+          "research-extended": {
+            "title": "A Local Junction in an International Production",
+            "body": "At Reclamation Street and Soy Street, Push reads Mong Kok's visual density as global action-film shorthand. Signs, tenants, narrow sightlines, traffic, and compressed façades allow an international production to communicate speed and urban pressure quickly. The junction remains, but its commercial surfaces are especially changeable, so present appearance should not be mistaken for the 2009 frame. This instability is historically productive: it shows the city circulating as an image even while the businesses that make that image keep changing. Early in the geographic route, this 2009 stop adds an external gaze to Hong Kong's own police and crime films. Final verification should match the camera direction and surviving architectural edges, separating durable street geometry from signs or tenants that may have disappeared."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": false,
+          "visitor-brief": {
+            "title": "Street Economy at the Edge of the Trail",
+            "body": "The Push scene is not a verified food scene. Its Mong Kok junction can still frame the wider street economy in which small eateries, shopping, transport, and changing tenants coexist."
+          },
+          "research-extended": {
+            "title": "Food Proximity Without Food Evidence",
+            "body": "Mong Kok's density makes food feel close at almost every turn, but proximity is not the same as cinematic evidence. The selected Push location is verified for its sign-heavy action-film streetscape, not for a particular act of eating or cooking. It therefore stays outside the main food sequence. As an optional context layer, the junction can support discussion of the street economy: rapid tenant turnover, long operating hours, transport flows, retail, and small food businesses all share limited space. Those conditions help explain how urban food culture remains visible and vulnerable, but they should not be attributed to the film scene without further evidence. The text matrix uses this distinction to keep interpretation generous and claims precise. A visitor may eat nearby; the website should not pretend that this recreates Push."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v2-18-hung-wan-cafe",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "A 1998 Café with a Changing Afterlife",
+            "body": "The Lucky Guy turns Hung Wan Café into a workplace and comedy stage. The original business closed in 2024 and the site reopened under a new operator, making continuity itself part of the story."
+          },
+          "research-extended": {
+            "title": "When a Film-Famous Business Changes Hands",
+            "body": "Hung Wan Café closes the 1990s chapter with a location where workplace, social life, and performance occupy the same interior. The Lucky Guy uses the café as the ensemble comedy's recurring stage, tying screen memory to the routines of service and repeat customers. The site's recent history complicates any simple claim of preservation: the original business closed in December 2024 and reopened in 2025 under a new operator, with historic elements retained and reworked. Visitors therefore encounter continuity, adaptation, and branding at once. The website should name that change rather than describe the present café as untouched. A final frame study can identify which spatial features remain, while current photography or ordering policies should be confirmed with staff. The location demonstrates that living film heritage may survive through negotiation rather than perfect material authenticity."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Egg Tarts, Work, and Reinvention",
+            "body": "In The Lucky Guy, café service and egg-tart culture shape friendship, romance, and comedy. Today's reopened business lets visitors ask what remains when a famous food location changes operator and interior details."
+          },
+          "research-extended": {
+            "title": "The Café as Workplace and Memory Business",
+            "body": "The Lucky Guy makes Hung Wan Café more than a place where characters eat. It is a workplace, a social network, and the stage on which service routines become comedy. Egg-tart culture helps connect the film's humour to an accessible everyday food form, but the current visit must acknowledge change. After the original business closed in December 2024, the location reopened in 2025 under a new operator. Retained or reworked historic details may support recognition without making the space identical to the filmed interior. This is why the food trail ends here: the stop turns nostalgia into a research question. Does continuity depend on a recipe, name, layout, staff community, customer memory, or screen image? Visitors should order respectfully, ask before photographing, and let the present business exist on its own terms as well as through the film."
+          }
+        }
+      }
+    },
+    {
+      "location_id": "v3-19-mido-cafe",
+      "texts": {
+        "historical-timeline": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "Hong Kong Constructed for an International Screen",
+            "body": "In The World of Suzie Wong, the curved Mido Cafe building appears beyond the market crowd in a Yau Ma Tei street scene. The distant café and nearby temple wall help a 1960 production construct its image of Hong Kong."
+          },
+          "research-extended": {
+            "title": "An International Gaze from 1960",
+            "body": "Mido Cafe introduces an early historical layer through a productive mismatch between real geography and cinematic representation. In The World of Suzie Wong, the curved building appears within Temple Street and Tin Hau Temple sequences where Yau Ma Tei helps construct another part of the film's Hong Kong. The location therefore demonstrates how international cinema could assemble the city from visually legible fragments rather than preserve strict geographic continuity. That representational choice should be analysed without claiming that the café interior was filmed: current evidence securely anchors the exterior and surrounding streetscape. The café, founded in 1950 and operating again after a temporary 2022 closure, gives visitors an unusually tangible connection to the period. Yet the first task remains to compare façade, corner, temple, and camera direction—not to treat every surviving interior detail as production evidence."
+          }
+        },
+        "cinematic-food-trail": {
+          "included_in_route": true,
+          "visitor-brief": {
+            "title": "A Living Café Beside a Verified Exterior",
+            "body": "Mido Cafe links a recognisable film exterior with a real cha chaan teng visit. The building is the secure screen anchor; today's dining room should be experienced as living café heritage, not labelled a filmed interior without proof."
+          },
+          "research-extended": {
+            "title": "Eating at a Film Landmark Without Rewriting the Evidence",
+            "body": "Mido Cafe offers the route's clearest chance to combine a meal with a surviving mid-century visual identity, but it also requires careful wording. The World of Suzie Wong supports the curved exterior and surrounding Temple Street view as the film anchor. It does not, on current evidence, prove that today's dining interior is the interior seen on screen. The food experience belongs to the café's living history: tiled surfaces, booths, service routines, menu traditions, and the etiquette of an operating cha chaan teng. Visitors should enter as customers, avoid blocking tables, and ask before photographing staff or other diners. This distinction makes the stop richer rather than weaker. One can eat in a historic film-associated building while understanding that cinematic location, business continuity, and present interior authenticity are three related but separate claims."
+          }
+        }
+      }
+    }
+  ]
+}

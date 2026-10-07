@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0.0",
+  "status": "planning_reference",
+  "last_checked": "2026-09-09",
+  "notice": "Public-transport lines and map connections are schematic planning references, not turn-by-turn navigation. Check each operator's live journey planner on the day of travel.",
+  "segments": [
+    {
+      "id": "star-ferry-central-tsim-sha-tsui",
+      "mode": "ferry",
+      "route_ids": ["Central–Tsim Sha Tsui"],
+      "label": "Star Ferry · Central–Tsim Sha Tsui",
+      "from": "Central Pier 7",
+      "to": "Tsim Sha Tsui Pier",
+      "description": "A cross-harbour connection between the Central and Tsim Sha Tsui film-location clusters.",
+      "color": "#16a8b8",
+      "coordinates": [[114.1612046, 22.2870742], [114.1646, 22.2905], [114.1679765, 22.2935169]],
+      "official_url": "https://www.starferry.com.hk/en/service",
+      "narrative_guidance": {
+        "historical-timeline": {
+          "label": "Star Ferry · the route's only harbour crossing",
+          "from": "Tsim Sha Tsui Pier",
+          "to": "Central Pier 7",
+          "description": "After the three Tsim Sha Tsui stops, walk west to the Star Ferry and cross once to Central Pier 7. Continue on foot through the remaining Central locations."
+        },
+        "cinematic-food-trail": {
+          "label": "Star Ferry · Central to Tsim Sha Tsui",
+          "from": "Pottinger Street / Central Pier 7",
+          "to": "Chungking Mansions / Tsim Sha Tsui",
+          "description": "After Pottinger Street, walk downhill to Central Pier 7 and cross to Tsim Sha Tsui. Continue on foot from the pier to Chungking Mansions, the food trail's next named location."
+        }
+      }
+    },
+    {
+      "id": "kmb-nathan-road-corridor",
+      "mode": "bus",
+      "route_ids": ["1", "1A"],
+      "label": "KMB · 1 / 1A Nathan Road corridor",
+      "from": "Prince Edward / Mong Kok",
+      "to": "Tsim Sha Tsui Star Ferry",
+      "description": "A schematic surface-transit reference linking the Tsim Sha Tsui, Jordan, Yau Ma Tei, Mong Kok, and Prince Edward clusters.",
+      "color": "#f3a712",
+      "coordinates": [[114.1679765, 22.2935169], [114.171, 22.297], [114.1718, 22.3049], [114.1707, 22.313], [114.1694, 22.3193], [114.1683, 22.3245]],
+      "official_url": "https://search.kmb.hk/KMBWebSite/AnnouncementPicture.ashx?url=1768179402_2413_0.pdf",
+      "narrative_guidance": {
+        "historical-timeline": {
+          "label": "KMB · 1 / 1A southbound Kowloon connector",
+          "from": "Prince Edward / Mong Kok",
+          "to": "Yau Ma Tei / Jordan / Tsim Sha Tsui",
+          "description": "Use this southbound corridor as an optional shortcut between the route's connected Kowloon clusters. The numbered film stops continue from north to south."
+        },
+        "cinematic-food-trail": {
+          "label": "KMB · 1 / 1A food-trail corridor",
+          "from": "Tsim Sha Tsui / Jordan",
+          "to": "Temple Street / Yau Ma Tei / Prince Edward",
+          "description": "After the Tsim Sha Tsui and Jordan locations, this northbound corridor supports the journey towards Temple Street, Mido Cafe, the Fruit Market, and Hung Wan Cafe."
+        }
+      }
+    },
+    {
+      "id": "mtr-tsuen-wan-loop-closure",
+      "mode": "mtr",
+      "route_ids": ["Tsuen Wan Line"],
+      "label": "MTR · Tsuen Wan Line alternative",
+      "from": "Prince Edward",
+      "to": "Central",
+      "description": "A north–south rail reference and an alternative cross-harbour connection between the principal location clusters.",
+      "color": "#e2231a",
+      "coordinates": [[114.1683, 22.3245], [114.1694, 22.3193], [114.1707, 22.313], [114.1718, 22.3049], [114.1722, 22.2974], [114.1645, 22.2791], [114.1589, 22.2819]],
+      "official_url": "https://www.mtr.com.hk/en/customer/services/system_map.html",
+      "narrative_guidance": {
+        "historical-timeline": {
+          "label": "MTR · optional southbound shortcut",
+          "from": "Prince Edward / Mong Kok",
+          "to": "Yau Ma Tei / Jordan / Tsim Sha Tsui",
+          "description": "Use the Tsuen Wan Line only to shorten the southbound Kowloon leg if needed. The planned harbour crossing remains the Star Ferry from Tsim Sha Tsui to Central."
+        },
+        "cinematic-food-trail": {
+          "label": "MTR · cross-harbour alternative",
+          "from": "Central",
+          "to": "Tsim Sha Tsui / Prince Edward",
+          "description": "If the ferry is unavailable, the Tsuen Wan Line provides an alternative between Central and Tsim Sha Tsui, then continues towards the trail's Yau Ma Tei and Prince Edward food locations."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hong-kong-through-film-coursework-2026.takukakakakaka.chatgpt.site/data/location-metadata.schema.json",
+  "title": "Hong Kong Through Film — Location Metadata",
+  "description": "Formal metadata contract for a researched film-location record, including an aligned Google Street View point of view.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "location_id",
+    "location_name",
+    "district",
+    "address",
+    "coordinates",
+    "location_type",
+    "film",
+    "scene",
+    "street_view",
+    "current_state",
+    "access",
+    "verification",
+    "sources"
+  ],
+  "properties": {
+    "location_id": { "type": "string", "pattern": "^v[0-9]+-[0-9]{2}-[a-z0-9-]+$" },
+    "location_name": { "type": "string", "minLength": 1 },
+    "district": { "type": "string", "minLength": 1 },
+    "address": { "type": "string", "minLength": 1 },
+    "coordinates": { "$ref": "#/$defs/coordinates" },
+    "location_type": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9_]+$" }
+    },
+    "film": { "$ref": "#/$defs/film" },
+    "scene": { "$ref": "#/$defs/scene" },
+    "street_view": { "$ref": "#/$defs/streetView" },
+    "current_state": { "type": "string", "minLength": 1 },
+    "access": { "$ref": "#/$defs/access" },
+    "route_fit": { "type": "string" },
+    "verification": { "$ref": "#/$defs/verification" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "source_checked_date": { "type": "string", "format": "date" }
+  },
+  "$defs": {
+    "coordinates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["latitude", "longitude", "status"],
+      "properties": {
+        "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+        "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+        "status": { "enum": ["working_verified", "working_derived", "field_verified"] },
+        "verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["provider", "match", "checked_date"],
+          "properties": {
+            "provider": { "type": "string" },
+            "match": { "type": "string" },
+            "checked_date": { "type": "string", "format": "date" }
+          }
+        }
+      }
+    },
+    "film": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["film_id", "title", "release_year", "directors"],
+      "properties": {
+        "film_id": { "type": "string", "pattern": "^film-[a-z0-9-]+$" },
+        "title": { "type": "string", "minLength": 1 },
+        "release_year": { "type": "integer", "minimum": 1895, "maximum": 2100 },
+        "directors": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "shot_anchor", "camera_direction", "camera_direction_status"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "shot_anchor": { "type": "string", "minLength": 1 },
+        "camera_direction": { "type": "string", "minLength": 1 },
+        "camera_direction_status": { "enum": ["working_orientation; verify on site", "frame_verified", "field_verified"] }
+      }
+    },
+    "streetView": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "viewpoint", "pov", "alignment_basis", "alignment_status"],
+      "properties": {
+        "provider": { "const": "Google Maps Street View" },
+        "viewpoint": { "$ref": "#/$defs/latLng" },
+        "pov": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["heading", "pitch", "fov"],
+          "properties": {
+            "heading": { "type": "number", "minimum": -180, "maximum": 360 },
+            "pitch": { "type": "number", "minimum": -90, "maximum": 90 },
+            "fov": { "type": "number", "minimum": 10, "maximum": 100 }
+          }
+        },
+        "alignment_basis": { "type": "string", "minLength": 1 },
+        "alignment_status": { "enum": ["working_alignment_needs_frame_check", "frame_verified", "field_verified"] },
+        "pano_id": { "type": ["string", "null"] },
+        "checked_date": { "type": "string", "format": "date" }
+      }
+    },
+    "latLng": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["latitude", "longitude"],
+      "properties": {
+        "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+        "longitude": { "type": "number", "minimum": -180, "maximum": 180 }
+      }
+    },
+    "access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "notes"],
+      "properties": {
+        "level": { "enum": ["public_space", "public_route", "business_permission", "restricted_or_changed_site"] },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidence_status", "result", "risk_or_gap", "next_action"],
+      "properties": {
+        "evidence_status": { "type": "string" },
+        "result": { "enum": ["initial_pass", "conditional_pass", "verified", "replace"] },
+        "risk_or_gap": { "type": "string" },
+        "next_action": { "type": "string" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "url"],
+      "properties": {
+        "role": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" }
+      }
+    }
+  }
+}

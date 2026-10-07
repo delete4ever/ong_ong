@@ -1,0 +1,670 @@
+{
+  "schema_version": "2.0.0",
+  "project": {
+    "project_id": "hong-kong-film-locations-route-v2",
+    "title": "Hong Kong Through Film",
+    "content_language": "en",
+    "locale": "en-HK",
+    "city": "Hong Kong",
+    "narrative": "A circular one-day journey through Hong Kong cinema: from Central's institutional streets and compressed markets, across Victoria Harbour by Star Ferry, north through Tsim Sha Tsui, Yau Ma Tei and Mong Kok, then back to Central on the Tsuen Wan Line.",
+    "location_count": 18,
+    "verification_stage": "route_v2_coordinate_pass",
+    "last_verified": "2026-09-11",
+    "coordinate_policy": "All 19 shared-location coordinates were checked as working landmark, address, or film-section pins. They support route planning; exact camera positions can still be field-checked where needed."
+  },
+  "visual_styles": [
+    {
+      "visual_style_id": "printed_hong_kong_1910_1949",
+      "label": "Printed Hong Kong",
+      "control_label": "Print",
+      "period": "First half of the 20th century · 1910s–1940s",
+      "design_direction": "A lithographic editorial system shaped by calendar posters, cinema programmes, newspaper columns, ticket numbering, vermilion ink, and restrained paper texture."
+    },
+    {
+      "visual_style_id": "postwar_cha_chaan_teng_1950_1999",
+      "label": "Post-war Cha Chaan Teng",
+      "control_label": "Café",
+      "period": "Second half of the 20th century · 1950s–1980s",
+      "design_direction": "An abstract diner system shaped by green window grids, tiled walls, live bilingual lightbox controls, bottle green, signal red, cream laminate, condensed sign lettering, and monospaced menu typography."
+    }
+  ],
+  "verification_legend": {
+    "verification_result": {
+      "initial_pass": "The film-location relationship is credible and the site is feasible for the route. Film frames, timecodes, and final camera positions are still required before publication.",
+      "conditional_pass": "The location is credible, but access, physical change, or the exact shot position requires a visible qualification.",
+      "replace": "The evidence or route feasibility is insufficient. Replace the entry before final publication."
+    },
+    "coordinate_status": {
+      "working_verified": "A current landmark or address match was checked for route-scale mapping.",
+      "working_derived": "The pin was derived from an adjacent current address because the filmed structure no longer exists."
+    }
+  },
+  "locations": [
+    {
+      "location_id": "v2-01-jackson-road",
+      "route_order": 1,
+      "location_name": "Jackson Road Beside the Cenotaph",
+      "district": "Central",
+      "address": "Jackson Road beside the Cenotaph, Central",
+      "coordinates": {
+        "latitude": 22.2816319,
+        "longitude": 114.1605753,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Cenotaph and Jackson Road landmark match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["road", "monument_edge"],
+      "film": { "film_id": "film-better-tomorrow-1986", "title": "A Better Tomorrow", "release_year": 1986, "directors": ["John Woo"] },
+      "scene": {
+        "summary": "Mark eats rice rolls beside Jackson Road, using an ordinary street-vendor moment at the edge of the financial district to establish his condition.",
+        "shot_anchor": "The Jackson Road edge beside the Cenotaph; the original mobile food stall no longer survives.",
+        "camera_direction": "Stand on the west-side pavement beside the Cenotaph and face south along Jackson Road, keeping the former Supreme Court colonnade on the right of frame.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The road and Cenotaph remain, but the defining street stall has disappeared.",
+      "access": { "level": "public_space", "notes": "Respect monument boundaries, events, and pedestrian circulation." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "Fixed landmarks can be matched, but the original vendor and props cannot be recreated as existing features.",
+        "next_action": "Add the film timecode and align the road edge and Cenotaph against the frame."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/en_HK/inspiration/hong-kong/iconic-hong-kong-movie-locations.html" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-02-duddell-street",
+      "route_order": 2,
+      "location_name": "Duddell Street Steps and Gas Lamps",
+      "district": "Central",
+      "address": "Duddell Street at Ice House Street, Central",
+      "coordinates": {
+        "latitude": 22.2796844,
+        "longitude": 114.1568073,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Duddell Street landmark match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["declared_monument", "stone_steps"],
+      "film": { "film_id": "film-king-comedy-1999", "title": "King of Comedy", "release_year": 1999, "directors": ["Stephen Chow", "Lee Lik-chi"] },
+      "scene": {
+        "summary": "The granite steps and gas lamps give Lau Piu-piu's introduction a theatrical urban entrance.",
+        "shot_anchor": "The steps and four gas lamps at the Ice House Street end.",
+        "camera_direction": "Frame uphill from the lower Ice House Street landing toward the granite steps and gas lamps.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The monument has been restored and remains publicly accessible.",
+      "access": { "level": "public_space", "notes": "Keep tripods and groups clear of the narrow steps." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The explicit film association currently relies on one media location guide.",
+        "next_action": "Add a film timecode and test whether a daylight or evening comparison communicates the scene best."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.dotdotnews.com/a/202210/19/AP634fb030e4b0adad9d62c734.html" },
+        { "role": "place_reference", "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-duddell-street.html" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-03-midnight-express",
+      "route_order": 3,
+      "location_name": "Former Midnight Express Site",
+      "district": "Central",
+      "address": "3 Lan Kwai Fong, Central",
+      "coordinates": {
+        "latitude": 22.280897,
+        "longitude": 114.1557202,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Lan Kwai Fong address-area match for the former site", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["former_shop", "street"],
+      "film": { "film_id": "film-chungking-express-1994", "title": "Chungking Express", "release_year": 1994, "directors": ["Wong Kar-wai"] },
+      "scene": {
+        "summary": "The former takeaway stall is the meeting place for Cop 663 and Faye and the emotional centre of the film's second story.",
+        "shot_anchor": "The former shopfront and its Lan Kwai Fong street corner; only a then-and-now comparison is possible.",
+        "camera_direction": "Stand opposite the former 3 Lan Kwai Fong shopfront and face the takeaway-counter site squarely from street level.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The original shop and much of its architectural context have changed.",
+      "access": { "level": "exterior_only", "notes": "Present this as a former site, not as a preserved film set." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "Its value is cinematic memory rather than visual preservation.",
+        "next_action": "Pair an authorised film still with a clearly labelled current exterior photograph."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/zh_TW/inspiration/hong-kong/director-wong-kar-wais-hong-kong.html" },
+        { "role": "current_context", "url": "https://www.timeout.com/hong-kong/film/then-and-now-iconic-locations-from-wong-kar-wais-chungking-express" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-04-pottinger-street",
+      "route_order": 4,
+      "location_name": "Pottinger Street Stone Steps",
+      "district": "Central",
+      "address": "Pottinger Street between Queen's Road Central and Hollywood Road",
+      "coordinates": {
+        "latitude": 22.283349,
+        "longitude": 114.1559584,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Pottinger Street match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["historic_street", "stone_steps"],
+      "film": { "film_id": "film-infernal-affairs-iii-2003", "title": "Infernal Affairs III", "release_year": 2003, "directors": ["Andrew Lau", "Alan Mak"] },
+      "scene": {
+        "summary": "Tony Leung's character walks the stone steps while eating an apple and speaking on the phone.",
+        "shot_anchor": "The uneven granite steps and adjacent retaining walls in the Central section.",
+        "camera_direction": "Face south and uphill along the stone steps, with the market stalls close on the left and the brick frontage receding on the right.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The public steps survive as a recognisable historic streetscape.",
+      "access": { "level": "public_space", "notes": "The steps are active and uneven; keep the walking path clear." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "exact_frame_and_location_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The scene and street are locked, but the exact camera direction remains a fieldwork question.",
+        "next_action": "Use the City in Time frame to compare wall joints, shop edges, and travel direction on site."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cityintime.hk/en/article/central-pottinger-street-ca-1930/" },
+        { "role": "place_reference", "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-pottinger-street.html" }
+      ],
+      "source_checked_date": "2026-09-11"
+    },
+    {
+      "location_id": "v2-05-graham-market",
+      "route_order": 5,
+      "location_name": "Graham Street Market / Gage Street",
+      "district": "Central",
+      "address": "Gage Street at Graham Street, Central",
+      "coordinates": {
+        "latitude": 22.2832918,
+        "longitude": 114.1535524,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Graham Market and Gage Street match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["open_air_market", "street"],
+      "film": { "film_id": "film-chungking-express-1994", "title": "Chungking Express", "release_year": 1994, "directors": ["Wong Kar-wai"] },
+      "scene": {
+        "summary": "Faye moves through the market, where produce stalls, awnings, and narrow streets turn errands into fluid urban imagery.",
+        "shot_anchor": "The market passage around Gage Street and its junction with Graham Street.",
+        "camera_direction": "From Gage Street, face obliquely toward the Graham Street market passage so stalls and the narrow working lane fill both sides of frame.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The market still operates, although redevelopment has changed individual stalls and building outlines.",
+      "access": { "level": "public_space", "notes": "Avoid blocking vendors and ask before photographing people or stalls closely." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "initial_pass",
+        "risk_or_gap": "Individual stalls visible in 1994 may have moved or disappeared.",
+        "next_action": "Record each frame element as surviving, removed, or replaced."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/zh_TW/inspiration/hong-kong/director-wong-kar-wais-hong-kong.html" },
+        { "role": "place_reference", "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-graham-street-market.html" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-06-escalator",
+      "route_order": 6,
+      "location_name": "Central–Mid-Levels Escalator",
+      "district": "Central",
+      "address": "Cochrane Street and Hollywood Road section, Central",
+      "coordinates": {
+        "latitude": 22.283918,
+        "longitude": 114.154968,
+        "status": "working_verified",
+        "verification": { "provider": "Film-location research plus OpenStreetMap", "match": "Film-specific Cochrane Street / Hollywood Road section retained", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["pedestrian_system", "escalator"],
+      "film": { "film_id": "film-chungking-express-1994", "title": "Chungking Express", "release_year": 1994, "directors": ["Wong Kar-wai"] },
+      "scene": {
+        "summary": "Faye passes on the escalator and looks towards Cop 663's home; the moving viewpoint becomes part of their indirect relationship.",
+        "shot_anchor": "The Cochrane Street to Hollywood Road section; the exact window still needs frame confirmation.",
+        "camera_direction": "Stand on the public walkway beside the glazed escalator section and face across the glass toward passengers moving through the Cochrane Street–Hollywood Road span.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The system remains operational and several sections have been renewed.",
+      "access": { "level": "public_space", "notes": "Do not stop on the moving escalator or obstruct commuters." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "initial_pass",
+        "risk_or_gap": "The system is long, so the website must keep the film-specific section rather than a generic system pin.",
+        "next_action": "Match the precise window and record the escalator's operating direction."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/zh_TW/inspiration/hong-kong/director-wong-kar-wais-hong-kong.html" },
+        { "role": "current_context", "url": "https://www.timeout.com/hong-kong/film/then-and-now-iconic-locations-from-wong-kar-wais-chungking-express" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-07-central-pier-7",
+      "route_order": 7,
+      "location_name": "Central Star Ferry Pier 7",
+      "district": "Central Waterfront",
+      "address": "Central Pier No. 7, Man Kwong Street, Central",
+      "coordinates": {
+        "latitude": 22.2870742,
+        "longitude": 114.1612046,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Central Star Ferry Pier match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["ferry_pier", "transport_building"],
+      "film": { "film_id": "film-cold-war-2012", "title": "Cold War", "release_year": 2012, "directors": ["Longman Leung", "Sunny Luk"] },
+      "scene": {
+        "summary": "The pier and interchange support the ransom and pursuit narrative while carrying the route across Victoria Harbour.",
+        "shot_anchor": "Pier 7 entrance, waiting area, and boarding path must be separated after timecode review.",
+        "camera_direction": "From the public forecourt or boarding approach, face the Pier 7 entrance head-on so the doorway and ferry signage sit behind the subject.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The pier remains operational.",
+      "access": { "level": "public_transport_space", "notes": "Some areas require a valid fare; never obstruct passengers or staff." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The scene may use the entrance, waiting area, vessel, or nearby waterfront.",
+        "next_action": "Add a timecode and create separate anchors if the scene uses more than one pier space."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.dotdotnews.com/a/202210/19/AP634fb030e4b0adad9d62c734.html" },
+        { "role": "transport", "url": "https://www.starferry.com.hk/en/service" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-08-avenue-of-stars",
+      "route_order": 8,
+      "location_name": "Avenue of Stars",
+      "district": "Tsim Sha Tsui",
+      "address": "Tsim Sha Tsui Promenade, Kowloon",
+      "coordinates": {
+        "latitude": 22.2941468,
+        "longitude": 114.1757887,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Avenue of Stars landmark match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["waterfront_promenade", "film_landmark"],
+      "film": { "film_id": "film-daddy-cool-2009", "title": "Daddy Cool", "release_year": 2009, "directors": ["Aashiq Abu"] },
+      "scene": {
+        "summary": "A musical set piece turns the old Avenue of Stars and Victoria Harbour panorama into a public performance stage.",
+        "shot_anchor": "The pre-renovation promenade facing Victoria Harbour, identified through the railing, skyline, and waterfront geometry in the source frames.",
+        "camera_direction": "Face west along the promenade with Victoria Harbour on the right and the waterfront buildings receding on the left.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The renovated promenade remains a busy public attraction.",
+      "access": { "level": "public_space", "notes": "Expect crowding and keep equipment out of the promenade flow." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "exact_frame_and_location_source",
+        "result": "conditional_pass",
+        "risk_or_gap": "The film-location relationship is locked, but the source depicts the old promenade before its renovation.",
+        "next_action": "Present the still as pre-renovation evidence and compare the skyline angle and waterfront edge with the current promenade."
+      },
+      "sources": [
+        { "role": "film_location_and_frame", "url": "https://hkmacaufilmtvlocations.blogspot.com/2026/09/daddy-cool-mammootty-2009-avenue-of.html" },
+        { "role": "place_reference", "url": "https://www.discoverhongkong.com/eng/explore/attractions/avenue-of-stars.html" }
+      ],
+      "source_checked_date": "2026-09-11"
+    },
+    {
+      "location_id": "v2-09-middle-road-ymca",
+      "route_order": 9,
+      "location_name": "Middle Road Opposite The Salisbury YMCA",
+      "district": "Tsim Sha Tsui",
+      "address": "Middle Road at Salisbury Road, opposite The Salisbury YMCA",
+      "coordinates": {
+        "latitude": 22.29487,
+        "longitude": 114.1710258,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact YMCA landmark match; pin represents the adjacent road edge", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["street", "hotel_edge"],
+      "film": { "film_id": "film-comrades-1996", "title": "Comrades, Almost a Love Story", "release_year": 1996, "directors": ["Peter Chan"] },
+      "scene": {
+        "summary": "The roadside opposite the YMCA anchors one of the film's everyday Tsim Sha Tsui encounters.",
+        "shot_anchor": "The Middle Road curb opposite The Salisbury YMCA; direction still needs frame confirmation.",
+        "camera_direction": "From the Middle Road curb, face north toward The Salisbury–YMCA side of the street and keep the sloping retaining wall behind the subject.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The road geometry and hotel remain, while traffic furniture and frontages have changed.",
+      "access": { "level": "public_space", "notes": "Use pavements only and do not step into live traffic for a matching angle." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "The exact curb and camera direction remain uncertain.",
+        "next_action": "Use the film timecode to determine which side of Middle Road is safe and accurate."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/en_HK/inspiration/hong-kong/iconic-hong-kong-movie-locations.html" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-10-chungking-mansions",
+      "route_order": 10,
+      "location_name": "Chungking Mansions",
+      "district": "Tsim Sha Tsui",
+      "address": "36–44 Nathan Road, Tsim Sha Tsui",
+      "coordinates": {
+        "latitude": 22.2963741,
+        "longitude": 114.1728447,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Chungking Mansions landmark match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["mixed_use_building", "commercial_space"],
+      "film": { "film_id": "film-chungking-express-1994", "title": "Chungking Express", "release_year": 1994, "directors": ["Wong Kar-wai"] },
+      "scene": {
+        "summary": "The opening pursuit uses the building's dense, multicultural passages and commercial networks as an urban maze.",
+        "shot_anchor": "The Nathan Road entrance is the safe public anchor; interior passages are separate, permission-dependent anchors.",
+        "camera_direction": "Stand on the Nathan Road pavement and face the Chungking Mansions entrance head-on at street level.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The building remains intensively used by shops, hospitality businesses, and residents.",
+      "access": { "level": "limited_access", "notes": "Use the exterior by default; request permission before interior photography." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "Interior filming affects merchants, guests, residents, and security.",
+        "next_action": "Prepare an exterior-only version and separate each interior anchor if permission is secured."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/zh_TW/inspiration/hong-kong/director-wong-kar-wais-hong-kong.html" },
+        { "role": "current_context", "url": "https://www.timeout.com/hong-kong/film/then-and-now-iconic-locations-from-wong-kar-wais-chungking-express" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-11-canton-road",
+      "route_order": 11,
+      "location_name": "Canton Road, Harbour City Section",
+      "district": "Tsim Sha Tsui",
+      "address": "Canton Road beside Harbour City, Tsim Sha Tsui",
+      "coordinates": {
+        "latitude": 22.2970015,
+        "longitude": 114.1684199,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Harbour City and Canton Road match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["shopping_street", "commercial_edge"],
+      "film": { "film_id": "film-comrades-1996", "title": "Comrades, Almost a Love Story", "release_year": 1996, "directors": ["Peter Chan"] },
+      "scene": {
+        "summary": "The Canton Road cycling sequence places the relationship inside Tsim Sha Tsui's commercial rhythm.",
+        "shot_anchor": "The Harbour City frontage and road corridor; the exact bicycle segment requires timecode review.",
+        "camera_direction": "Frame parallel to the Harbour City frontage from the opposite curb, facing north along Canton Road as the bicycle crosses the storefronts.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The corridor remains, but retail façades, crossings, and traffic conditions have changed.",
+      "access": { "level": "public_space", "notes": "Recreate views from pavements only; do not stage movement in the carriageway." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "initial_pass",
+        "risk_or_gap": "A long road segment is too broad for a final publication pin.",
+        "next_action": "Match shopfront rhythm and travel direction to identify the exact block."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/en_HK/inspiration/hong-kong/iconic-hong-kong-movie-locations.html" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-12-man-wah-sun-chuen",
+      "route_order": 12,
+      "location_name": "Man Wah Sun Chuen",
+      "district": "Jordan / Yau Ma Tei",
+      "address": "Man Wah Sun Chuen, Ferry Street, Kowloon",
+      "coordinates": {
+        "latitude": 22.3081134,
+        "longitude": 114.1660004,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact residential-estate match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["residential_estate", "courtyard"],
+      "film": { "film_id": "film-breaking-news-2004", "title": "Breaking News", "release_year": 2004, "directors": ["Johnnie To"] },
+      "scene": {
+        "summary": "The estate's enclosed blocks and circulation spaces shape the film's prolonged police siege.",
+        "shot_anchor": "Use the public exterior and estate edges until access and exact block positions are confirmed.",
+        "camera_direction": "From the Ferry Street edge, face east toward the estate blocks and use the stepped roofline to match the wide exterior view.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The estate remains residential and should not be treated as an unrestricted attraction.",
+      "access": { "level": "limited_access", "notes": "Respect residents and building management; do not enter controlled areas without permission." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "conditional_pass",
+        "risk_or_gap": "The strongest visual anchors may be inside semi-public residential areas.",
+        "next_action": "Scout only from public streets first and request permission before any courtyard documentation."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/en_HK/inspiration/hong-kong/iconic-hong-kong-movie-locations.html" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-13-old-ymt-police",
+      "route_order": 13,
+      "location_name": "Old Yau Ma Tei Police Station",
+      "district": "Yau Ma Tei",
+      "address": "627 Canton Road, Yau Ma Tei",
+      "coordinates": {
+        "latitude": 22.309532,
+        "longitude": 114.1685433,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Old Yau Ma Tei Police Station match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["historic_police_station", "exhibition_space"],
+      "film": { "film_id": "film-election-2005", "title": "Election", "release_year": 2005, "directors": ["Johnnie To"] },
+      "scene": {
+        "summary": "Big D and Lok leave the old station after detention, placing a struggle for informal power at the threshold of formal police authority.",
+        "shot_anchor": "The Canton Road exterior and station entrance visible as Big D and Lok leave the building.",
+        "camera_direction": "Stand on the public Canton Road edge and face the former police-station entrance squarely between the portico columns.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The former station now hosts the ticketed 'A Cinematic Journey' exhibition.",
+      "access": { "level": "reservation_required", "notes": "Check current ticketing, opening hours, and photography rules before visiting." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "exact_frame_cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "The Election exterior is verified; current exhibition access and displays must remain separate from original production evidence.",
+        "next_action": "Keep Election as the canonical film and preserve the documented correction that Infernal Affairs was a misidentification."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-old-yau-ma-tei-police-station.html" },
+        { "role": "film_frame", "url": "https://had18.huluhk.org/article-detail.php?id=362" },
+        { "role": "attribution_correction", "url": "https://www.hk01.com/%E9%9B%BB%E5%BD%B1/805514/%E6%B2%B9%E9%BA%BB%E5%9C%B0%E8%AD%A6%E7%BD%B2%E5%BB%BA%E6%88%90%E4%B8%80%E7%99%BE%E5%91%A8%E5%B9%B4-%E9%BB%91%E7%A4%BE%E6%9C%83-%E5%A5%AA%E5%91%BD%E9%87%91-%E6%9D%9C%E7%90%AA%E5%B3%AF%E6%9C%80%E6%84%9B%E5%8F%96%E6%99%AF%E5%9C%B0" },
+        { "role": "current_access", "url": "https://fpf.ccidahk.gov.hk/en/ymtps/ymtps.html" }
+      ],
+      "source_checked_date": "2026-09-11"
+    },
+    {
+      "location_id": "v2-14-former-carpark-temple-street",
+      "route_order": 14,
+      "location_name": "Temple Street / Former Yau Ma Tei Car Park Site",
+      "district": "Yau Ma Tei",
+      "address": "Temple Street at Kansu Street, opposite the former 250 Shanghai Street car park",
+      "coordinates": {
+        "latitude": 22.30923,
+        "longitude": 114.17018,
+        "status": "working_derived",
+        "verification": { "provider": "Photon / OpenStreetMap plus former-site address", "match": "Derived from 251 Shanghai Street and the surviving Temple Street edge opposite the demolished structure", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["night_market", "former_structure"],
+      "film": { "film_id": "film-cest-la-vie-1993", "title": "C'est la vie, mon chéri", "release_year": 1993, "directors": ["Derek Yee"] },
+      "scene": {
+        "summary": "Temple Street and the former car park building formed the night-market setting around Min and Kit's neighbourhood life.",
+        "shot_anchor": "The surviving Temple Street edge and the footprint opposite; the former car park building has been demolished.",
+        "camera_direction": "From the Temple Street night-market edge, face toward the former car-park footprint opposite and use the surviving street alignment as the reconstruction anchor.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "Temple Street survives, but the Yau Ma Tei Car Park Building at 250 Shanghai Street has been demolished.",
+      "access": { "level": "public_space", "notes": "Present a then-and-now comparison and avoid implying that the filmed building survives." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "The primary architectural anchor no longer exists, so this is a memory-site rather than a visual recreation stop.",
+        "next_action": "Verify the demolition footprint, match the surviving street direction, and label archival imagery prominently."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://www.cathaypacific.com/cx/en_HK/inspiration/hong-kong/iconic-hong-kong-movie-locations.html" },
+        { "role": "demolition_status", "url": "https://www.info.gov.hk/gia/general/202011/27/P2020112500478.htm" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-15-tin-hau-temple",
+      "route_order": 15,
+      "location_name": "Tin Hau Temple / Yung Shue Tau",
+      "district": "Yau Ma Tei",
+      "address": "Public Square Street, Yau Ma Tei",
+      "coordinates": {
+        "latitude": 22.3099104,
+        "longitude": 114.1706939,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Tin Hau Temple landmark match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["temple", "public_square"],
+      "film": { "film_id": "film-world-suzie-wong-1960", "title": "The World of Suzie Wong", "release_year": 1960, "directors": ["Richard Quine"] },
+      "scene": {
+        "summary": "Tin Hau Temple and Yung Shue Tau form the recognisable Yau Ma Tei street setting for part of the film's imagined Hong Kong.",
+        "shot_anchor": "The temple frontage and square, cross-identified through the curved Mido Cafe corner and Temple Street alignment.",
+        "camera_direction": "Face north through Yung Shue Tau toward the Tin Hau Temple square, with the market stalls forming both sides of the street corridor.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The temple complex and public square remain active community spaces.",
+      "access": { "level": "public_space", "notes": "Follow temple rules and do not obstruct worshippers, performers, or market activity." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "exact_frame_and_location_source",
+        "result": "conditional_pass",
+        "risk_or_gap": "The scene-location relationship is locked, but the 1960 street layout differs from the current public square.",
+        "next_action": "Compare the temple frontage, Mido Cafe corner, and street alignment without claiming that the café interior appeared in the film."
+      },
+      "sources": [
+        { "role": "film_location_and_frame", "url": "https://hkmacaufilmtvlocations.blogspot.com/2011/05/the-world-of-suzie-wong-william-holden.html" },
+        { "role": "place_reference", "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-tin-hau-temple-yau-ma-tei.html" }
+      ],
+      "source_checked_date": "2026-09-11"
+    },
+    {
+      "location_id": "v2-16-fruit-market",
+      "route_order": 16,
+      "location_name": "Yau Ma Tei Wholesale Fruit Market",
+      "district": "Yau Ma Tei",
+      "address": "Waterloo Road and Reclamation Street, Yau Ma Tei",
+      "coordinates": {
+        "latitude": 22.3121981,
+        "longitude": 114.1683031,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact wholesale fruit market match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["wholesale_market", "historic_buildings"],
+      "film": { "film_id": "film-as-tears-go-by-1988", "title": "As Tears Go By", "release_year": 1988, "directors": ["Wong Kar-wai"] },
+      "scene": {
+        "summary": "The working market's loading spaces and brick buildings embody the film's nocturnal Kowloon texture.",
+        "shot_anchor": "The market edge at Waterloo Road and Reclamation Street; the exact loading bay remains unconfirmed.",
+        "camera_direction": "From the Waterloo Road–Reclamation Street corner, face into the market loading edge and align the corrugated awnings across the frame.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The wholesale market remains active, especially before dawn, and is a working environment rather than a staged attraction.",
+      "access": { "level": "public_edge_only", "notes": "Stay on public edges, avoid trading hours where possible, and never block workers or vehicles." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "conditional_pass",
+        "risk_or_gap": "The film-location link is reported, but a reproducible frame anchor has not yet been established.",
+        "next_action": "Confirm a timecode and identify a safe public-edge view; replace the entry if it cannot be matched."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://pocketsights.com/tours/place/Yau-Ma-Tei-Wholesale-Fruit-Market-70917%3A7563" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-17-reclamation-soy",
+      "route_order": 17,
+      "location_name": "Reclamation Street × Soy Street",
+      "district": "Mong Kok",
+      "address": "Around 331 Reclamation Street at Soy Street, Mong Kok",
+      "coordinates": {
+        "latitude": 22.315661,
+        "longitude": 114.168513,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact Reclamation Street and Soy Street junction-area match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["street_corner", "urban_facade"],
+      "film": { "film_id": "film-push-2009", "title": "Push", "release_year": 2009, "directors": ["Paul McGuigan"] },
+      "scene": {
+        "summary": "The corner at Reclamation and Soy Streets supplies the film with a compressed, sign-heavy Mong Kok streetscape.",
+        "shot_anchor": "The façade around 331 Reclamation Street and the Soy Street corner.",
+        "camera_direction": "Face the façade at 331 Reclamation Street and angle the frame toward the Soy Street junction to reproduce the corner view.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The junction remains, but signs, tenants, and façade details are likely to have changed.",
+      "access": { "level": "exterior_only", "notes": "Use pavements and avoid photographing into private interiors." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "single_source",
+        "result": "conditional_pass",
+        "risk_or_gap": "The exact façade is supported by specialist location research but needs independent frame confirmation.",
+        "next_action": "Compare storefront bays and street signs to the film frame and add a second source."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://hkmacaufilmtvlocations.blogspot.com/2016/09/push-chris-evans-2009-soy-street-mongkok.html" }
+      ],
+      "source_checked_date": "2026-09-09"
+    },
+    {
+      "location_id": "v2-18-hung-wan-cafe",
+      "route_order": 18,
+      "location_name": "Hung Wan Café",
+      "district": "Prince Edward",
+      "address": "726 Shanghai Street, Prince Edward",
+      "coordinates": {
+        "latitude": 22.3226084285714,
+        "longitude": 114.167520242857,
+        "status": "working_verified",
+        "verification": { "provider": "Photon / OpenStreetMap", "match": "Exact 726 Shanghai Street address match", "checked_date": "2026-09-09" }
+      },
+      "location_type": ["cha_chaan_teng", "film_interior"],
+      "film": { "film_id": "film-lucky-guy-1998", "title": "The Lucky Guy", "release_year": 1998, "directors": ["Lee Lik-chi"] },
+      "scene": {
+        "summary": "The café interior became the workplace and social stage of the film's ensemble comedy.",
+        "shot_anchor": "The 726 Shanghai Street shopfront is the stable public anchor; the reopened interior must be documented as changed.",
+        "camera_direction": "Stand across the Shanghai Street pavement and face the 726 shopfront squarely, keeping the café sign and neighbouring façade in one plane.",
+        "camera_direction_status": "working_orientation; verify on site"
+      },
+      "current_state": "The original business closed in December 2024 and reopened in 2025 under a new operator with historic elements retained and reworked.",
+      "access": { "level": "business_permission", "notes": "Visit as a customer and request permission before photographing the interior or staff." },
+      "route_fit": "circular_one_day_route",
+      "verification": {
+        "evidence_status": "cross_verified",
+        "result": "conditional_pass",
+        "risk_or_gap": "The current interior is not identical to the film-era café and must not be presented as untouched.",
+        "next_action": "Confirm current photography policy and build a clearly dated then-and-now comparison."
+      },
+      "sources": [
+        { "role": "film_location", "url": "https://womany.net/read/article/4645" },
+        { "role": "current_status", "url": "https://hk.ulifestyle.com.hk/activity/detail/20050559/%E7%B5%90%E6%A5%AD%E6%BD%AE2024-50%E5%B9%B4%E6%AD%B7%E5%8F%B2-%E9%B4%BB%E9%81%8B%E5%86%B0%E5%BB%B3%E9%A4%85%E5%BA%97-%E5%AE%A3%E4%BD%8812%E6%9C%88%E7%B5%90%E6%A5%AD-%E6%9B%BE%E7%82%BA%E9%9B%BB%E5%BD%B1-%E8%A1%8C%E9%81%8B%E4%B8%80%E6%A2%9D%E9%BE%8D-%E5%8F%96%E6%99%AF%E5%9C%B0" }
+      ],
+      "source_checked_date": "2026-09-09"
+    }
+  ]
+}
