@@ -33,7 +33,7 @@ export default function DisclaimerPage() {
             <h2 id="rights-heading">Rights remain with their owners</h2>
             <div className="two-column-copy">
               <div><h3>Film and documentary material</h3><p>Copyright and related rights in films, scene images, articles, maps, and third-party documents remain with their original owners. Attribution identifies provenance; it does not claim permission or transfer ownership.</p></div>
-              <div><h3>Original project work</h3><p>Original research organisation, narrative writing, metadata structure, typographic themes, and layout choices are © 2026 Lulu Yang. Open-source fonts and software remain under their respective licences.</p></div>
+              <div><h3>Original project work</h3><p>Original research organisation, narrative writing, metadata structure, typographic themes, and layout choices are © 2026 Ludi Yang. Open-source fonts and software remain under their respective licences.</p></div>
             </div>
           </div>
         </section>
